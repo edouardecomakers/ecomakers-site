@@ -1,0 +1,66 @@
+import Header from '@/components/landing/layout/Header'
+import HeroContactSection from '@/components/landing/sections/ecomakers/contact/HeroContactSection'
+import FormContactSection from '@/components/landing/sections/ecomakers/contact/FormContactSection'
+import CtaContactSection from '@/components/landing/sections/ecomakers/contact/CtaContactSection'
+
+export const metadata = {
+  title: 'Contact | EcoMakers',
+  description: "Contactez EcoMakers pour vos projets de recrutement GTB/GTC.",
+}
+
+export default function ContactPage() {
+  return (
+    <div className="min-h-screen">
+      <Header />
+      
+      <HeroContactSection />
+      
+      <section className="w-full py-12 md:py-24 lg:py-32">
+        <div className="container px-4 md:px-6">
+          <div className="grid lg:grid-cols-2 gap-12">
+            <div>
+              <FormContactSection />
+            </div>
+            
+            <div className="space-y-8">
+              <div>
+                <h3 className="text-2xl font-bold mb-4">Nos coordonnées</h3>
+                <div className="space-y-3 text-muted-foreground">
+                  <p>
+                    <strong className="text-foreground">Email :</strong><br />
+                    contact@ecomakers.fr
+                  </p>
+                  <p>
+                    <strong className="text-foreground">LinkedIn :</strong><br />
+                    <a 
+                      href="https://linkedin.com/company/ecomakers" 
+                      className="text-primary hover:underline"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      linkedin.com/company/ecomakers
+                    </a>
+                  </p>
+                  <p>
+                    <strong className="text-foreground">Zone d'intervention :</strong><br />
+                    Île-de-France uniquement
+                  </p>
+                </div>
+              </div>
+              
+              <div>
+                <h3 className="text-2xl font-bold mb-4">Réponse rapide</h3>
+                <p className="text-muted-foreground">
+                  Nous répondons sous 24h ouvrées à tous les messages.
+                  Pour une demande urgente, privilégiez le formulaire.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <CtaContactSection />
+    </div>
+  )
+}

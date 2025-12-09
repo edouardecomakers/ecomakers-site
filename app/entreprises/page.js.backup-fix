@@ -1,0 +1,41 @@
+import Header from '@/components/landing/layout/Header'
+import Breadcrumb from '@/components/ui/breadcrumb'
+import HeroEntreprisesSection from '@/components/landing/sections/ecomakers/entreprises/HeroEntreprisesSection'
+import DefisSection from '@/components/landing/sections/ecomakers/entreprises/DefisSection'
+import CtaAboveFormSection from '@/components/landing/sections/ecomakers/entreprises/CtaAboveFormSection'
+import ProcessSection from '@/components/landing/sections/ecomakers/entreprises/ProcessSection'
+import GarantiesSection from '@/components/landing/sections/ecomakers/entreprises/GarantiesSection'
+import TarificationSection from '@/components/landing/sections/ecomakers/entreprises/TarificationSection'
+import ReseauSection from '@/components/landing/sections/ecomakers/entreprises/ReseauSection'
+import FormAnalyseSection from '@/components/landing/sections/ecomakers/entreprises/FormAnalyseSection'
+import FaqEntreprisesSection from '@/components/landing/sections/ecomakers/entreprises/FaqEntreprisesSection'
+import CtaFinalEntreprisesSection from '@/components/landing/sections/ecomakers/entreprises/CtaFinalEntreprisesSection'
+import CtaSticky from '@/components/landing/elements/CtaSticky'
+
+export const metadata = {
+  title: 'Entreprises - Recrutez en 7 jours | EcoMakers',
+  description: "Recrutez les meilleurs talents GTB/GTC d'Île-de-France en 7 jours. 2 profils qualifiés garantis.",
+}
+
+export default function EntreprisesPage() {
+  return (
+    <div className="min-h-screen">
+      <Header />
+      <Breadcrumb />
+      <HeroEntreprisesSection />
+      <DefisSection />
+      <CtaAboveFormSection />
+      <ProcessSection />
+      <GarantiesSection />
+      <TarificationSection />
+      <ReseauSection />
+      <FormAnalyseSection />
+      <FaqEntreprisesSection />
+      <CtaFinalEntreprisesSection />
+      <CtaSticky 
+        href="/entreprises#formulaire" 
+        text="Obtenir mon analyse gratuite" 
+      />
+    </div>
+  )
+}

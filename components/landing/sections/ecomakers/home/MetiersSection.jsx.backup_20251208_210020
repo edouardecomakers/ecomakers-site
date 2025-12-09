@@ -1,0 +1,72 @@
+import { Cpu, Settings, Users, Briefcase, Leaf, Zap } from 'lucide-react'
+
+const metiers = [
+  {
+    icon: Cpu,
+    title: "Technicien GTB/GTC",
+    description: "Le pilier de la maintenance et de l'exploitation GTB. Installation, paramétrage, maintenance préventive et curative."
+  },
+  {
+    icon: Settings,
+    title: "Automaticien",
+    description: "L'architecte des systèmes intelligents. Programmation, développement applications GTB, intégration multi-protocoles."
+  },
+  {
+    icon: Users,
+    title: "Chef de Projet GTB/GTC",
+    description: "Le stratège de la performance énergétique. Conception, pilotage, management équipes, optimisation énergétique."
+  },
+  {
+    icon: Briefcase,
+    title: "Chargé d'Affaires",
+    description: "Le chef d'orchestre technique et commercial. Pilotage projets A-Z, gestion clients, coordination équipes."
+  },
+  {
+    icon: Leaf,
+    title: "Energy Manager",
+    description: "Le pilote de la transition énergétique. Stratégie énergétique, décret tertiaire, RE2020, management multi-sites."
+  },
+  {
+    icon: Zap,
+    title: "Responsable GTB",
+    description: "Le pilote opérationnel de l'équipe GTB. Management équipes techniques, coordination projets, optimisation processus, reporting direction."
+  }
+]
+
+export default function MetiersSection() {
+  return (
+    <section className="w-full py-12 md:py-24 lg:py-32 bg-muted/50" id="metiers">
+      <div className="container space-y-12 px-4 md:px-6">
+        <div className="flex flex-col items-center justify-center space-y-4 text-center">
+          <div className="space-y-2">
+            <div className="inline-block rounded-lg bg-primary/10 px-3 py-1 text-sm text-primary font-medium">
+              Nos expertises
+            </div>
+            <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
+              Les métiers GTB/GTC que nous recrutons
+            </h2>
+            <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+              Spécialisation exclusive sur 6 métiers clés de la performance énergétique du bâtiment
+            </p>
+          </div>
+        </div>
+        <div className="mx-auto grid max-w-sm items-start gap-8 sm:max-w-4xl sm:grid-cols-2 md:gap-12 lg:max-w-5xl lg:grid-cols-3">
+          {metiers.map((metier, index) => {
+            const Icon = metier.icon
+            return (
+              <div className="grid gap-1 rounded-lg border bg-card p-6 hover:border-primary hover:-translate-y-2 hover:shadow-lg transition-all duration-300" key={index}>
+                <div className="flex h-10 w-10 items-center justify-center rounded-full bg-primary/10 mb-2">
+                  <Icon className="h-5 w-5 text-primary" />
+                </div>
+                <h3 className="text-lg font-bold">{metier.title}</h3>
+                <p className="text-sm text-muted-foreground leading-relaxed">
+                  {metier.description}
+                </p>
+              </div>
+            )
+          })}
+        </div>
+      </div>
+    </section>
+  )
+}

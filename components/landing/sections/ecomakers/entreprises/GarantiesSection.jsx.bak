@@ -1,0 +1,36 @@
+import { Clock, Shield, CreditCard } from "lucide-react"
+
+export default function GarantiesSection() {
+  return (
+    <section className="w-full py-12 md:py-24 lg:py-32 bg-muted/50">
+      <div className="container px-4 md:px-6">
+        <div className="flex flex-col items-center justify-center space-y-4 text-center">
+          <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Nos engagements</h2>
+        </div>
+        <div className="mx-auto grid max-w-5xl gap-6 py-12 lg:grid-cols-3">
+          <div className="bg-card rounded-lg border p-6 space-y-4">
+            <div className="flex items-center justify-center w-12 h-12 rounded-full bg-primary/10">
+              <Clock className="w-6 h-6 text-primary" />
+            </div>
+            <h3 className="text-xl font-bold">7 jours ou -50%</h3>
+            <p className="text-muted-foreground">Si nous ne présentons pas 2 profils qualifiés sous 7 jours, -50% sur les honoraires.</p>
+          </div>
+          <div className="bg-card rounded-lg border p-6 space-y-4">
+            <div className="flex items-center justify-center w-12 h-12 rounded-full bg-primary/10">
+              <Shield className="w-6 h-6 text-primary" />
+            </div>
+            <h3 className="text-xl font-bold">Remplacement inclus</h3>
+            <p className="text-muted-foreground">Si candidat ne convient pas pendant période d'essai, remplacement sans frais.</p>
+          </div>
+          <div className="bg-card rounded-lg border p-6 space-y-4">
+            <div className="flex items-center justify-center w-12 h-12 rounded-full bg-primary/10">
+              <CreditCard className="w-6 h-6 text-primary" />
+            </div>
+            <h3 className="text-xl font-bold">Paiement au succès</h3>
+            <p className="text-muted-foreground">Vous ne payez que si vous recrutez. Aucun acompte, aucun frais avant résultat.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  )
+}

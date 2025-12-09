@@ -1,0 +1,70 @@
+import { Button } from "@/components/ui/button"
+import { CheckCircle, Building2, Users, Zap } from "lucide-react"
+import Image from "next/image"
+
+export default function HeroSection() {
+  return (
+    <section className="relative w-full py-20 md:py-32 lg:py-40 overflow-hidden">
+      {/* Background Image */}
+      <div className="absolute inset-0 z-0">
+        <Image
+          src="/images/image_header__1_.png"
+          alt="GTB GTC Île-de-France"
+          fill
+          className="object-cover brightness-50"
+          priority
+        />
+      </div>
+
+      {/* Content */}
+      <div className="relative z-10 container px-4 md:px-6">
+        <div className="flex flex-col items-center justify-center space-y-8 text-center">
+          <div className="space-y-6">
+            <div className="inline-block rounded-lg bg-primary px-3 py-1 text-sm text-white font-medium">
+              Garantie 7 jours ou -50%
+            </div>
+            <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl text-white">
+              Recrutez en GTB/GTC en 7 jours
+            </h1>
+            <p className="text-xl text-gray-200">
+              Spécialistes GTB Île-de-France
+            </p>
+            <p className="mx-auto max-w-[900px] text-xl md:text-2xl font-semibold text-white">
+              Nous vous présentons 2 profils qualifiés en 7 jours. Garanti ou -50%.
+            </p>
+            <p className="mx-auto max-w-[800px] text-lg text-gray-300">
+              Cabinet spécialisé en GTB/GTC et performance énergétique en Île-de-France
+            </p>
+            <div className="flex flex-wrap justify-center gap-4 text-sm text-gray-200">
+              <div className="flex items-center gap-2">
+                <Users className="h-4 w-4" />
+                <span>2000+ profils spécialisés</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <Zap className="h-4 w-4" />
+                <span>Approche proactive</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <CheckCircle className="h-4 w-4" />
+                <span>Paiement au succès (20%)</span>
+              </div>
+            </div>
+          </div>
+          <div className="flex flex-col sm:flex-row gap-4">
+            <Button size="lg" className="text-lg px-8 py-6 bg-primary hover:bg-primary/90" asChild>
+              <a href="/entreprises">
+                <Building2 className="mr-2 h-5 w-5" />
+                Entreprises : Obtenir mon analyse gratuite
+              </a>
+            </Button>
+            <Button variant="outline" size="lg" className="text-lg px-8 py-6 bg-white text-gray-900 hover:bg-gray-100" asChild>
+              <a href="/candidats">
+                Talents : Accéder aux opportunités
+              </a>
+            </Button>
+          </div>
+        </div>
+      </div>
+    </section>
+  )
+}

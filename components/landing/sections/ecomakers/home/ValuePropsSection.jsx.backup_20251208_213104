@@ -1,0 +1,135 @@
+import { CheckCircle } from 'lucide-react'
+import { Button } from '@/components/ui/button'
+
+export default function ValuePropsSection() {
+  return (
+    <section className="w-full py-12 md:py-24 lg:py-32 bg-muted/50">
+      <div className="container space-y-12 px-4 md:px-6">
+        <div className="flex flex-col items-center justify-center space-y-4 text-center">
+          <div className="space-y-2">
+            <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
+              Pourquoi EcoMakers
+            </h2>
+            <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+              Une approche différente pour entreprises et candidats
+            </p>
+          </div>
+        </div>
+
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+          {/* Colonne Gauche - Entreprises */}
+          <div className="rounded-lg border bg-card p-8 flex flex-col">
+            <div className="space-y-2 mb-6">
+              <h3 className="text-2xl font-bold">Vous recrutez en GTB/GTC ?</h3>
+              <p className="text-muted-foreground">
+                Accédez aux meilleurs talents GTB/GTC d'Île-de-France en 7 jours.
+              </p>
+            </div>
+
+            <div className="space-y-4 flex-grow mb-6">
+              <div className="flex gap-4">
+                <CheckCircle className="h-6 w-6 text-primary flex-shrink-0 mt-1" />
+                <div className="space-y-1">
+                  <h4 className="font-semibold">Accès aux profils qui ne postulent pas</h4>
+                  <p className="text-sm text-muted-foreground">
+                    2000+ professionnels GTB/GTC d'Île-de-France dans notre réseau, dont 60% en veille active qui ne répondent plus aux annonces classiques.
+                  </p>
+                </div>
+              </div>
+
+              <div className="flex gap-4">
+                <CheckCircle className="h-6 w-6 text-primary flex-shrink-0 mt-1" />
+                <div className="space-y-1">
+                  <h4 className="font-semibold">Process en 4 étapes structurées</h4>
+                  <p className="text-sm text-muted-foreground">
+                    Analyse du besoin → Identification des profils → Présentation sous 7 jours → Accompagnement jusqu'à l'embauche.
+                  </p>
+                </div>
+              </div>
+
+              <div className="flex gap-4">
+                <CheckCircle className="h-6 w-6 text-primary flex-shrink-0 mt-1" />
+                <div className="space-y-1">
+                  <h4 className="font-semibold">Paiement au succès uniquement</h4>
+                  <p className="text-sm text-muted-foreground">
+                    20% du salaire annuel brut, facturés uniquement à l'embauche effective. Aucun frais si vous n'embauchez pas.
+                  </p>
+                </div>
+              </div>
+
+              <div className="flex gap-4">
+                <CheckCircle className="h-6 w-6 text-primary flex-shrink-0 mt-1" />
+                <div className="space-y-1">
+                  <h4 className="font-semibold">Double garantie</h4>
+                  <p className="text-sm text-muted-foreground">
+                    Garantie de remplacement 3 mois. Si le candidat part dans les 3 mois, remplacement gratuit. Garantie 7 jours : Si nous ne vous présentons pas 2 profils qualifiés en 7 jours, honoraires -50%.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <Button className="w-full mt-auto" asChild>
+              <a href="/entreprises">En savoir plus</a>
+            </Button>
+          </div>
+
+          {/* Colonne Droite - Candidats */}
+          <div className="rounded-lg border bg-card p-8 flex flex-col">
+            <div className="space-y-2 mb-6">
+              <h3 className="text-2xl font-bold">Vous travaillez en GTB/GTC ?</h3>
+              <p className="text-muted-foreground">
+                Accédez aux meilleures opportunités d'Île-de-France avant qu'elles ne soient publiées.
+              </p>
+            </div>
+
+            <div className="space-y-4 flex-grow mb-6">
+              <div className="flex gap-4">
+                <CheckCircle className="h-6 w-6 text-primary flex-shrink-0 mt-1" />
+                <div className="space-y-1">
+                  <h4 className="font-semibold">Opportunités exclusives et confidentielles</h4>
+                  <p className="text-sm text-muted-foreground">
+                    Accédez en priorité aux postes GTB/GTC avant leur publication. 70% de nos missions sont pourvues sans annonce publique. Confidentialité totale : votre démarche reste discrète vis-à-vis de votre employeur actuel.
+                  </p>
+                </div>
+              </div>
+
+              <div className="flex gap-4">
+                <CheckCircle className="h-6 w-6 text-primary flex-shrink-0 mt-1" />
+                <div className="space-y-1">
+                  <h4 className="font-semibold">Accompagnement personnalisé</h4>
+                  <p className="text-sm text-muted-foreground">
+                    Nous ne présentons que les opportunités qui correspondent réellement à votre profil et vos attentes. Préparation aux entretiens et coaching. Accompagnement jusqu'à la signature.
+                  </p>
+                </div>
+              </div>
+
+              <div className="flex gap-4">
+                <CheckCircle className="h-6 w-6 text-primary flex-shrink-0 mt-1" />
+                <div className="space-y-1">
+                  <h4 className="font-semibold">Contenu gratuit pour votre carrière</h4>
+                  <p className="text-sm text-muted-foreground">
+                    Guides salaires GTB/GTC Île-de-France. Conseils négociation et évolution de carrière. Veille marché et tendances du secteur.
+                  </p>
+                </div>
+              </div>
+
+              <div className="flex gap-4">
+                <CheckCircle className="h-6 w-6 text-primary flex-shrink-0 mt-1" />
+                <div className="space-y-1">
+                  <h4 className="font-semibold">Suivi de carrière long terme</h4>
+                  <p className="text-sm text-muted-foreground">
+                    Un accompagnement qui ne s'arrête pas à votre embauche. Nous restons votre partenaire carrière sur la durée, pour vos évolutions futures.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <Button className="w-full mt-auto" asChild>
+              <a href="/candidats">En savoir plus</a>
+            </Button>
+          </div>
+        </div>
+      </div>
+    </section>
+  )
+}

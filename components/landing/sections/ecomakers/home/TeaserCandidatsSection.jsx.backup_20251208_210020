@@ -1,0 +1,74 @@
+import { Lock, Target, BookOpen, Users, ArrowRight } from 'lucide-react'
+import { Button } from '@/components/ui/button'
+import Link from 'next/link'
+
+const avantages = [
+  {
+    icon: Target,
+    title: "Opportunités exclusives",
+    description: "70% de nos missions ne sont jamais publiées. Accédez aux postes avant tout le monde."
+  },
+  {
+    icon: Lock,
+    title: "Confidentialité totale",
+    description: "Votre démarche reste 100% discrète vis-à-vis de votre employeur actuel."
+  },
+  {
+    icon: Users,
+    title: "Accompagnement personnalisé",
+    description: "Préparation entretiens, négociation salariale, conseil carrière tout au long du process."
+  },
+  {
+    icon: BookOpen,
+    title: "Ressources gratuites",
+    description: "Guides salaires GTB/GTC, conseils carrière, veille marché et tendances du secteur."
+  }
+]
+
+export default function TeaserCandidatsSection() {
+  return (
+    <section className="w-full py-12 md:py-24 lg:py-32 bg-blue-50/50 dark:bg-blue-950/20" id="candidats-teaser">
+      <div className="container px-4 md:px-6">
+        <div className="flex flex-col items-center justify-center space-y-4 text-center mb-12">
+          <div className="space-y-2">
+            <div className="inline-block rounded-lg bg-secondary/10 px-3 py-1 text-sm text-secondary font-medium">
+              Candidats
+            </div>
+            <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
+              Rejoignez le Réseau EcoMakers
+            </h2>
+            <p className="max-w-[700px] text-muted-foreground md:text-xl/relaxed">
+              Accédez aux meilleures opportunités GTB/GTC d'Île-de-France
+            </p>
+          </div>
+        </div>
+        
+        <div className="mx-auto grid max-w-4xl gap-6 md:grid-cols-2">
+          {avantages.map((item, index) => {
+            const Icon = item.icon
+            return (
+              <div className="flex gap-4 p-4 rounded-lg border bg-card hover:border-secondary transition-colors" key={index}>
+                <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-secondary/10">
+                  <Icon className="h-5 w-5 text-secondary" />
+                </div>
+                <div>
+                  <h3 className="font-semibold mb-1">{item.title}</h3>
+                  <p className="text-sm text-muted-foreground">{item.description}</p>
+                </div>
+              </div>
+            )
+          })}
+        </div>
+
+        <div className="flex justify-center mt-10">
+          <Button asChild size="lg" variant="secondary">
+            <Link href="/candidats">
+              Rejoindre le réseau
+              <ArrowRight className="ml-2 h-4 w-4" />
+            </Link>
+          </Button>
+        </div>
+      </div>
+    </section>
+  )
+}
