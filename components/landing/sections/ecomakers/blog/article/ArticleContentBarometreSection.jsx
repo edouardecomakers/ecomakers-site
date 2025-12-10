@@ -548,35 +548,6 @@ export default function ArticleContentBarometreSection() {
             </Card>
           </div>
 
-          <h3 id="top-employeurs">Top employeurs GTB en Île-de-France</h3>
-
-          <div className="not-prose my-8">
-            <Card>
-              <CardContent className="p-0">
-                <div className="overflow-x-auto">
-                  <table className="w-full">
-                    <thead className="bg-muted/50">
-                      <tr className="border-b">
-                        <th className="px-4 py-3 text-left font-semibold">Employeur</th>
-                        <th className="px-4 py-3 text-center font-semibold">Taille</th>
-                        <th className="px-4 py-3 text-center font-semibold">Postes</th>
-                        <th className="px-4 py-3 text-center font-semibold">Offres</th>
-                      </tr>
-                    </thead>
-                    <tbody className="divide-y">
-                      <tr className="hover:bg-muted/30"><td className="px-4 py-3 font-medium">Bouygues Energies & Services</td><td className="px-4 py-3 text-center text-sm">Grand groupe</td><td className="px-4 py-3 text-center text-sm">Tous postes</td><td className="px-4 py-3 text-center font-semibold text-primary">120+</td></tr>
-                      <tr className="hover:bg-muted/30"><td className="px-4 py-3 font-medium">Vinci Energies</td><td className="px-4 py-3 text-center text-sm">Grand groupe</td><td className="px-4 py-3 text-center text-sm">Tous postes</td><td className="px-4 py-3 text-center font-semibold text-primary">95+</td></tr>
-                      <tr className="hover:bg-muted/30"><td className="px-4 py-3 font-medium">Engie Solutions</td><td className="px-4 py-3 text-center text-sm">Grand groupe</td><td className="px-4 py-3 text-center text-sm">Tous postes</td><td className="px-4 py-3 text-center font-semibold text-primary">78+</td></tr>
-                      <tr className="hover:bg-muted/30"><td className="px-4 py-3 font-medium">Schneider Electric</td><td className="px-4 py-3 text-center text-sm">Grand groupe</td><td className="px-4 py-3 text-center text-sm">Techniciens, Auto</td><td className="px-4 py-3 text-center font-semibold text-primary">52+</td></tr>
-                      <tr className="hover:bg-muted/30"><td className="px-4 py-3 font-medium">Siemens</td><td className="px-4 py-3 text-center text-sm">Grand groupe</td><td className="px-4 py-3 text-center text-sm">Techniciens, Auto</td><td className="px-4 py-3 text-center font-semibold text-primary">41+</td></tr>
-                      <tr className="hover:bg-muted/30"><td className="px-4 py-3 font-medium">Johnson Controls</td><td className="px-4 py-3 text-center text-sm">Grand groupe</td><td className="px-4 py-3 text-center text-sm">Techniciens, CA</td><td className="px-4 py-3 text-center font-semibold text-primary">38+</td></tr>
-                      <tr className="hover:bg-muted/30"><td className="px-4 py-3 font-medium">Dalkia (EDF)</td><td className="px-4 py-3 text-center text-sm">Grand groupe</td><td className="px-4 py-3 text-center text-sm">Tous postes</td><td className="px-4 py-3 text-center font-semibold text-primary">35+</td></tr>
-                      <tr className="hover:bg-muted/30 bg-muted/20"><td className="px-4 py-3 font-medium">PME/ETI spécialisées</td><td className="px-4 py-3 text-center text-sm">PME/ETI</td><td className="px-4 py-3 text-center text-sm">Tous postes</td><td className="px-4 py-3 text-center font-semibold text-primary">200+</td></tr>
-                    </tbody>
-                  </table>
-                </div>
-              </CardContent>
-            </Card>
           </div>
 
           {/* SECTION 4 : GUIDES PRATIQUES */}
