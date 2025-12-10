@@ -3,16 +3,16 @@ import Link from "next/link"
 
 const articles = [
   {
-    id: 1,
-    title: "Les 6 métiers GTB/GTC les plus recherchés en 2024",
-    excerpt: "Technicien, automaticien, chef de projet... Découvrez les profils GTB/GTC que les entreprises s'arrachent et pourquoi.",
-    imageUrl: "https://images.unsplash.com/photo-1581092921461-eab62e97a780?w=800&auto=format&fit=crop",
-    date: "15 novembre 2024",
-    datetime: "2024-11-15",
-    readTime: "5 min",
-    category: "Recrutement",
-    slug: "metiers-gtb-gtc-plus-recherches-2024",
-    useImage: true
+    id: 4,
+    title: "CPF + Formation GTB 2025 : Transformez Vos Droits en Certification (Guide Complet)",
+    excerpt: "40M de comptes CPF en France. Découvrez comment financer votre certification GTB (Niagara N4, protocoles) avec vos droits CPF et booster votre carrière.",
+    date: "10 décembre 2025",
+    datetime: "2025-12-10",
+    readTime: "20 min",
+    category: "Formation",
+    slug: "formation-gtb-cpf-2025",
+    useImage: false,
+    gradient: "from-purple-500 to-pink-500"
   },
   {
     id: 2,
@@ -29,9 +29,9 @@ const articles = [
   {
     id: 3,
     title: "Baromètre des Salaires GTB Île-de-France 2025",
-    excerpt: "Le premier baromètre complet basé sur 755 offres réelles. Fourchettes par métier, écarts géographiques, impact des certifications.",
-    date: "11 novembre 2025",
-    datetime: "2025-11-11",
+    excerpt: "Le premier baromètre complet basé sur 605 offres réelles collectées (249 avec salaires exploitables). Fourchettes par métier, écarts géographiques, impact des certifications.",
+    date: "9 décembre 2025",
+    datetime: "2025-12-09",
     readTime: "15 min",
     category: "Salaires",
     slug: "barometre-salaires-gtb-ile-de-france-2025",
@@ -46,55 +46,52 @@ export default function ArticlesGridSection() {
       <div className="container px-4 md:px-6">
         <div className="grid gap-8 lg:grid-cols-3">
           {articles.map((article) => (
-            <article key={article.id} className="group flex flex-col rounded-lg border bg-card overflow-hidden hover:border-primary transition-colors">
-              {article.useImage ? (
-                <div className="relative w-full">
-                  <img
-                    alt=""
-                    src={article.imageUrl}
-                    className="aspect-video w-full object-cover"
-                  />
-                </div>
-              ) : (
-                <div className={`relative w-full aspect-video bg-gradient-to-br ${article.gradient} flex items-center justify-center p-6`}>
-                  <div className="text-center">
-                    <div className="inline-block rounded-lg bg-white/20 backdrop-blur-sm px-3 py-1 text-xs font-medium text-white mb-3">
-                      {article.category}
+            <Link href={`/blog/${article.slug}`} key={article.id}>
+              <article className="group flex flex-col rounded-lg border bg-card overflow-hidden hover:border-primary transition-colors cursor-pointer h-full">
+                {article.useImage ? (
+                  <div className="relative w-full">
+                    <img
+                      alt=""
+                      src={article.imageUrl}
+                      className="aspect-video w-full object-cover"
+                    />
+                  </div>
+                ) : (
+                  <div className={`relative w-full aspect-video bg-gradient-to-br ${article.gradient} flex items-center justify-center p-6`}>
+                    <div className="text-center">
+                      <div className="inline-block rounded-lg bg-white/20 backdrop-blur-sm px-3 py-1 text-xs font-medium text-white mb-3">
+                        {article.category}
+                      </div>
+                      <h3 className="text-lg font-bold text-white leading-tight">
+                        {article.title}
+                      </h3>
                     </div>
-                    <h3 className="text-lg font-bold text-white leading-tight">
-                      {article.title}
-                    </h3>
                   </div>
-                </div>
-              )}
-              <div className="flex flex-col grow p-6 space-y-4">
-                <div className="space-y-2">
-                  {article.useImage && (
-                    <div className="inline-block rounded-lg bg-primary/10 px-3 py-1 text-xs font-medium text-primary">
-                      {article.category}
+                )}
+                <div className="flex flex-col grow p-6 space-y-4">
+                  <div className="space-y-2">
+                    {article.useImage && (
+                      <div className="inline-block rounded-lg bg-primary/10 px-3 py-1 text-xs font-medium text-primary">
+                        {article.category}
+                      </div>
+                    )}
+                    <p className="text-sm text-muted-foreground leading-relaxed">
+                      {article.excerpt}
+                    </p>
+                  </div>
+                  <div className="flex items-center gap-4 text-xs text-muted-foreground mt-auto">
+                    <div className="flex items-center gap-1">
+                      <Calendar className="h-3 w-3" />
+                      <time dateTime={article.datetime}>{article.date}</time>
                     </div>
-                  )}
-                  <h3 className="text-xl font-bold group-hover:text-primary transition-colors">
-                    <Link href={`/blog/${article.slug}`}>
-                      {article.useImage ? article.title : ""}
-                    </Link>
-                  </h3>
-                  <p className="text-sm text-muted-foreground leading-relaxed">
-                    {article.excerpt}
-                  </p>
-                </div>
-                <div className="flex items-center gap-4 text-xs text-muted-foreground mt-auto">
-                  <div className="flex items-center gap-1">
-                    <Calendar className="h-3 w-3" />
-                    <time dateTime={article.datetime}>{article.date}</time>
-                  </div>
-                  <div className="flex items-center gap-1">
-                    <Clock className="h-3 w-3" />
-                    <span>{article.readTime}</span>
+                    <div className="flex items-center gap-1">
+                      <Clock className="h-3 w-3" />
+                      <span>{article.readTime}</span>
+                    </div>
                   </div>
                 </div>
-              </div>
-            </article>
+              </article>
+            </Link>
           ))}
         </div>
       </div>

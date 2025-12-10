@@ -64,7 +64,7 @@ export default function ArticleContentCarboneSection() {
 
           <div className="not-prose my-8 p-4 rounded-lg bg-blue-50 dark:bg-blue-950/20 border border-blue-200 dark:border-blue-800">
             <div className="flex gap-3">
-              <AlertCircle className="h-5 w-5 text-blue-600 dark:text-blue-500 shrink-0 mt-0.5" />
+              <AlertCircle className="h-5 w-5 text-blue-600 dark:text-white/900 shrink-0 mt-0.5" />
               <div className="text-sm">
                 <p className="font-semibold text-blue-900 dark:text-blue-100 mb-1">Le chiffre choc</p>
                 <p className="text-blue-800 dark:text-blue-200">
@@ -199,9 +199,9 @@ export default function ArticleContentCarboneSection() {
           <div className="not-prose space-y-6 my-8">
             {/* Technicien GTB */}
             <Card className="overflow-hidden">
-              <div className="bg-gradient-to-r from-blue-500 to-cyan-500 px-6 py-4">
+              <div className="bg-gradient-to-r from-secondary to-secondary/80 px-6 py-4">
                 <h3 className="text-xl font-bold text-white">Technicien GTB</h3>
-                <p className="text-blue-50 text-sm mt-1">Impact potentiel : 10-30% d&apos;amélioration</p>
+                <p className="text-white/90 text-sm mt-1">Impact potentiel : 10-30% d&apos;amélioration</p>
               </div>
               <CardContent className="p-6 space-y-4">
                 <div>
@@ -238,9 +238,9 @@ export default function ArticleContentCarboneSection() {
 
             {/* Automaticien */}
             <Card className="overflow-hidden">
-              <div className="bg-gradient-to-r from-emerald-500 to-teal-500 px-6 py-4">
+              <div className="bg-gradient-to-r from-primary to-primary/80 px-6 py-4">
                 <h3 className="text-xl font-bold text-white">Automaticien</h3>
-                <p className="text-emerald-50 text-sm mt-1">Impact potentiel : 15-40% d&apos;amélioration</p>
+                <p className="text-white/90 text-sm mt-1">Impact potentiel : 15-40% d&apos;amélioration</p>
               </div>
               <CardContent className="p-6 space-y-4">
                 <div>
@@ -277,9 +277,9 @@ export default function ArticleContentCarboneSection() {
 
             {/* Chef de Projet */}
             <Card className="overflow-hidden">
-              <div className="bg-gradient-to-r from-green-500 to-emerald-500 px-6 py-4">
+              <div className="bg-gradient-to-r from-primary to-primary/80 px-6 py-4">
                 <h3 className="text-xl font-bold text-white">Chef de Projet GTB</h3>
-                <p className="text-green-50 text-sm mt-1">Impact : Les choix de conception déterminent la performance sur 10-15 ans</p>
+                <p className="text-white/90 text-sm mt-1">Impact : Les choix de conception déterminent la performance sur 10-15 ans</p>
               </div>
               <CardContent className="p-6">
                 <div>
@@ -361,7 +361,7 @@ export default function ArticleContentCarboneSection() {
             <Card>
               <CardContent className="p-6">
                 <h4 className="font-semibold text-lg mb-3 flex items-center gap-2">
-                  <Zap className="h-5 w-5 text-blue-500" />
+                  <Zap className="h-5 w-5 text-white/900" />
                   Approche connectée
                 </h4>
                 <p className="text-sm font-medium mb-3">Privilégier pour :</p>
@@ -377,7 +377,7 @@ export default function ArticleContentCarboneSection() {
             <Card>
               <CardContent className="p-6">
                 <h4 className="font-semibold text-lg mb-3 flex items-center gap-2">
-                  <Leaf className="h-5 w-5 text-green-500" />
+                  <Leaf className="h-5 w-5 text-white/900" />
                   Approche sobre
                 </h4>
                 <p className="text-sm font-medium mb-3">Privilégier pour :</p>
@@ -481,24 +481,24 @@ export default function ArticleContentCarboneSection() {
 
           <div className="not-prose my-10">
             <Card className="overflow-hidden">
-              <div className="bg-gradient-to-r from-green-500 to-emerald-500 px-6 py-6">
+              <div className="bg-gradient-to-r from-primary to-primary/80 px-6 py-6">
                 <h3 className="text-2xl font-bold text-white mb-4">Les chiffres à retenir</h3>
                 <div className="grid md:grid-cols-2 gap-4 text-white">
                   <div>
                     <div className="text-3xl font-bold mb-1">6-10 kg CO₂/m²</div>
-                    <div className="text-green-50 text-sm">Empreinte initiale (60-78% = fabrication)</div>
+                    <div className="text-white/90 text-sm">Empreinte initiale (60-78% = fabrication)</div>
                   </div>
                   <div>
                     <div className="text-3xl font-bold mb-1">10-14% → 22-28%</div>
-                    <div className="text-green-50 text-sm">Économies : basique → expert (x2)</div>
+                    <div className="text-white/90 text-sm">Économies : basique → expert (x2)</div>
                   </div>
                   <div>
                     <div className="text-3xl font-bold mb-1">2-7 ans</div>
-                    <div className="text-green-50 text-sm">ROI écologique (élec France)</div>
+                    <div className="text-white/90 text-sm">ROI écologique (élec France)</div>
                   </div>
                   <div>
                     <div className="text-3xl font-bold mb-1">45%</div>
-                    <div className="text-green-50 text-sm">Taux d&apos;abandon après 3 ans</div>
+                    <div className="text-white/90 text-sm">Taux d&apos;abandon après 3 ans</div>
                   </div>
                 </div>
               </div>
