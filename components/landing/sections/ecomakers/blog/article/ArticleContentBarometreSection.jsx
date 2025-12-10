@@ -548,8 +548,6 @@ export default function ArticleContentBarometreSection() {
             </Card>
           </div>
 
-          </div>
-
           {/* SECTION 4 : GUIDES PRATIQUES */}
           <h2 id="guides-pratiques">4. Guides pratiques</h2>
 
