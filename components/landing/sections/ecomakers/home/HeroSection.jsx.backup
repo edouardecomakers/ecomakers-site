@@ -58,17 +58,13 @@ export default function HeroSection() {
             </div>
           </div>
 
-          {/* 2 CTAs - Version responsive */}
-          <div className="flex flex-col gap-4 sm:flex-row sm:justify-center w-full">
-            <Button size="lg" variant="default" asChild className="w-full sm:w-auto">
-              <a href="/entreprises#formulaire" className="text-sm md:text-base px-4 md:px-6">
-                Entreprises : Analyse gratuite
-              </a>
+          {/* 2 CTAs */}
+          <div className="flex flex-col gap-4 sm:flex-row sm:justify-center">
+            <Button size="lg" variant="default" asChild>
+              <a href="/entreprises#formulaire">Entreprises : Obtenir mon analyse gratuite</a>
             </Button>
-            <Button size="lg" variant="secondary" asChild className="w-full sm:w-auto">
-              <a href="/candidats#formulaire" className="text-sm md:text-base px-4 md:px-6">
-                Talents : Voir les offres
-              </a>
+            <Button size="lg" variant="secondary" asChild>
+              <a href="/candidats#formulaire">Talents : Accéder aux opportunités</a>
             </Button>
           </div>
         </div>
