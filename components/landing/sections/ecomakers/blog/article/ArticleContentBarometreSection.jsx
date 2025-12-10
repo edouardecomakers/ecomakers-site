@@ -247,7 +247,7 @@ export default function ArticleContentBarometreSection() {
           {/* AUTOMATICIEN */}
           <div className="not-prose my-8">
             <Card className="overflow-hidden">
-              <div className="bg-gradient-to-r from-secondary to-secondary/80 px-6 py-4">
+              <div className="bg-gradient-to-r from-primary to-primary/80 px-6 py-4">
                 <h3 className="text-xl font-bold text-white">Automaticien / Programmeur GTB</h3>
                 <p className="text-white/90 text-sm mt-1">L&apos;architecte des systèmes intelligents</p>
               </div>
@@ -306,7 +306,7 @@ export default function ArticleContentBarometreSection() {
           {/* CHARGÉ D'AFFAIRES */}
           <div className="not-prose my-8">
             <Card className="overflow-hidden">
-              <div className="bg-gradient-to-r from-accent to-accent/80 px-6 py-4">
+              <div className="bg-gradient-to-r from-primary to-primary/80 px-6 py-4">
                 <h3 className="text-xl font-bold text-white">Chargé d&apos;Affaires GTB</h3>
                 <p className="text-white/90 text-sm mt-1">Le chef d&apos;orchestre technique et commercial</p>
               </div>
@@ -406,7 +406,7 @@ export default function ArticleContentBarometreSection() {
           {/* INGÉNIEUR COMMERCIAL */}
           <div className="not-prose my-8">
             <Card className="overflow-hidden">
-              <div className="bg-gradient-to-r from-secondary to-secondary/80 px-6 py-4">
+              <div className="bg-gradient-to-r from-primary to-primary/80 px-6 py-4">
                 <h3 className="text-xl font-bold text-white">Ingénieur Commercial GTB</h3>
                 <p className="text-white/90 text-sm mt-1">Le développeur de business technique</p>
               </div>
@@ -460,7 +460,7 @@ export default function ArticleContentBarometreSection() {
           {/* RESPONSABLE TECHNIQUE */}
           <div className="not-prose my-8">
             <Card className="overflow-hidden">
-              <div className="bg-gradient-to-r from-accent to-accent/80 px-6 py-4">
+              <div className="bg-gradient-to-r from-primary to-primary/80 px-6 py-4">
                 <h3 className="text-xl font-bold text-white">Responsable Technique / Directeur Exploitation</h3>
                 <p className="text-white/90 text-sm mt-1">Le leader de la performance opérationnelle</p>
               </div>
@@ -515,7 +515,7 @@ export default function ArticleContentBarometreSection() {
 
           <div className="not-prose my-8">
             <Card className="overflow-hidden">
-              <div className="bg-gradient-to-r from-secondary to-secondary/80 px-6 py-4">
+              <div className="bg-gradient-to-r from-primary to-primary/80 px-6 py-4">
                 <h4 className="text-lg font-bold text-white">🏅 Certifications classées par retour sur investissement</h4>
               </div>
               <CardContent className="p-6 space-y-4">
@@ -676,7 +676,7 @@ export default function ArticleContentBarometreSection() {
           {/* Tableau prévisionnel 2026 */}
           <div className="not-prose my-8">
             <Card className="overflow-hidden">
-              <div className="bg-gradient-to-r from-accent to-accent/80 px-6 py-4">
+              <div className="bg-gradient-to-r from-primary to-primary/80 px-6 py-4">
                 <h4 className="text-lg font-bold text-white">Fourchettes salariales prévisionnelles 2026</h4>
               </div>
               <CardContent className="p-0">
