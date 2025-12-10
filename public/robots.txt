@@ -1,0 +1,12 @@
+# robots.txt pour EcoMakers
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://ecomakers.fr/sitemap.xml
+
+# Pages légales en noindex
+User-agent: *
+Disallow: /mentions-legales
+Disallow: /politique-confidentialite
+Disallow: /cookies

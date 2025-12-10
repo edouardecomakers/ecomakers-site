@@ -9,8 +9,26 @@ import TeaserCandidatsSection from '@/components/landing/sections/ecomakers/home
 import CtaFinalSection from '@/components/landing/sections/ecomakers/home/CtaFinalSection'
 
 export const metadata = {
-  title: 'EcoMakers - Recrutement GTB/GTC Île-de-France',
-  description: "Le spécialiste du recrutement GTB/GTC en Île-de-France. Connectez-vous avec les meilleurs talents ou trouvez votre prochain emploi.",
+  title: "EcoMakers - Recrutement GTB/GTC en Ile-de-France | Garantie 7 jours",
+  description: "Cabinet de recrutement spécialisé en GTB/GTC et performance énergétique. 2 profils qualifiés en 7 jours ou -50%. Paiement au succès. 2000+ talents en Ile-de-France.",
+  keywords: "recrutement GTB, recrutement GTC, technicien GTB, ingénieur GTB, performance énergétique, Ile-de-France, Paris",
+  openGraph: {
+    title: "EcoMakers - Recrutement GTB/GTC en Ile-de-France | Garantie 7 jours",
+    description: "Cabinet de recrutement spécialisé en GTB/GTC et performance énergétique. 2 profils qualifiés en 7 jours ou -50%. Paiement au succès. 2000+ talents en Ile-de-France.",
+    url: "https://ecomakers.fr",
+    siteName: "EcoMakers",
+    locale: "fr_FR",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "EcoMakers - Recrutement GTB/GTC en Ile-de-France | Garantie 7 jours",
+    description: "Cabinet de recrutement spécialisé en GTB/GTC et performance énergétique. 2 profils qualifiés en 7 jours ou -50%. Paiement au succès. 2000+ talents en Ile-de-France.",
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
 }
 
 export default function Home() {

@@ -6,8 +6,26 @@ import PourQuiSection from '@/components/landing/sections/ecomakers/a-propos/Pou
 import CtaFinalAProposSection from '@/components/landing/sections/ecomakers/a-propos/CtaFinalAProposSection'
 
 export const metadata = {
-  title: 'À Propos | EcoMakers',
-  description: "Découvrez EcoMakers, cabinet de recrutement spécialisé GTB/GTC en Île-de-France. Une approche réseau pour des recrutements en 7 jours, pas en 3 mois.",
+  title: "A Propos - EcoMakers | Cabinet de Recrutement GTB/GTC Spécialisé",
+  description: "EcoMakers, cabinet de recrutement spécialisé en GTB/GTC depuis 2013. Notre mission : connecter les meilleurs talents avec les entreprises en Ile-de-France.",
+  keywords: "EcoMakers, cabinet recrutement GTB, a propos, histoire, mission",
+  openGraph: {
+    title: "A Propos - EcoMakers | Cabinet de Recrutement GTB/GTC Spécialisé",
+    description: "EcoMakers, cabinet de recrutement spécialisé en GTB/GTC depuis 2013. Notre mission : connecter les meilleurs talents avec les entreprises en Ile-de-France.",
+    url: "https://ecomakers.fr/a-propos",
+    siteName: "EcoMakers",
+    locale: "fr_FR",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "A Propos - EcoMakers | Cabinet de Recrutement GTB/GTC Spécialisé",
+    description: "EcoMakers, cabinet de recrutement spécialisé en GTB/GTC depuis 2013. Notre mission : connecter les meilleurs talents avec les entreprises en Ile-de-France.",
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
 }
 
 export default function AproposPage() {

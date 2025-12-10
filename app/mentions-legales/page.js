@@ -2,8 +2,26 @@ import Header from '@/components/landing/layout/Header'
 import Footer from '@/components/landing/layout/Footer'
 
 export const metadata = {
-  title: 'Mentions légales | EcoMakers',
-  description: "Mentions légales du site EcoMakers.",
+  title: "Mentions Légales - EcoMakers",
+  description: "Mentions légales du site EcoMakers, cabinet de recrutement GTB/GTC en Ile-de-France.",
+  keywords: "mentions légales, EcoMakers",
+  openGraph: {
+    title: "Mentions Légales - EcoMakers",
+    description: "Mentions légales du site EcoMakers, cabinet de recrutement GTB/GTC en Ile-de-France.",
+    url: "https://ecomakers.fr/mentions-legales",
+    siteName: "EcoMakers",
+    locale: "fr_FR",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Mentions Légales - EcoMakers",
+    description: "Mentions légales du site EcoMakers, cabinet de recrutement GTB/GTC en Ile-de-France.",
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
 }
 
 export default function MentionslegalesPage() {

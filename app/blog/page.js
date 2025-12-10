@@ -5,8 +5,26 @@ import ArticlesGridSection from '@/components/landing/sections/ecomakers/blog/Ar
 import CtaBlogSection from '@/components/landing/sections/ecomakers/blog/CtaBlogSection'
 
 export const metadata = {
-  title: 'Trajectoires GTB - Blog | EcoMakers',
-  description: "Ressources gratuites pour votre carrière GTB/GTC: salaires, parcours métiers, certifications.",
+  title: "Blog - EcoMakers | Actualités Recrutement GTB/GTC",
+  description: "Actualités, conseils et tendances du recrutement GTB/GTC. Guides pour entreprises et candidats. Expertise performance énergétique en Ile-de-France.",
+  keywords: "blog recrutement GTB, actualités GTC, conseils carrière GTB, tendances recrutement",
+  openGraph: {
+    title: "Blog - EcoMakers | Actualités Recrutement GTB/GTC",
+    description: "Actualités, conseils et tendances du recrutement GTB/GTC. Guides pour entreprises et candidats. Expertise performance énergétique en Ile-de-France.",
+    url: "https://ecomakers.fr/blog",
+    siteName: "EcoMakers",
+    locale: "fr_FR",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Blog - EcoMakers | Actualités Recrutement GTB/GTC",
+    description: "Actualités, conseils et tendances du recrutement GTB/GTC. Guides pour entreprises et candidats. Expertise performance énergétique en Ile-de-France.",
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
 }
 
 export default function BlogPage() {

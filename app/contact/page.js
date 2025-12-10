@@ -5,8 +5,26 @@ import FormContactSection from '@/components/landing/sections/ecomakers/contact/
 import CtaContactSection from '@/components/landing/sections/ecomakers/contact/CtaContactSection'
 
 export const metadata = {
-  title: 'Contact | EcoMakers',
-  description: "Contactez EcoMakers pour vos projets de recrutement GTB/GTC en Île-de-France.",
+  title: "Contact - EcoMakers | Recrutement GTB/GTC Ile-de-France",
+  description: "Contactez EcoMakers pour vos projets de recrutement GTB/GTC en Ile-de-France. Réponse rapide et accompagnement personnalisé.",
+  keywords: "contact EcoMakers, recrutement GTB contact, cabinet recrutement Paris",
+  openGraph: {
+    title: "Contact - EcoMakers | Recrutement GTB/GTC Ile-de-France",
+    description: "Contactez EcoMakers pour vos projets de recrutement GTB/GTC en Ile-de-France. Réponse rapide et accompagnement personnalisé.",
+    url: "https://ecomakers.fr/contact",
+    siteName: "EcoMakers",
+    locale: "fr_FR",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Contact - EcoMakers | Recrutement GTB/GTC Ile-de-France",
+    description: "Contactez EcoMakers pour vos projets de recrutement GTB/GTC en Ile-de-France. Réponse rapide et accompagnement personnalisé.",
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
 }
 
 export default function ContactPage() {

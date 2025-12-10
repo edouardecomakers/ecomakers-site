@@ -2,8 +2,26 @@ import Header from '@/components/landing/layout/Header'
 import Footer from '@/components/landing/layout/Footer'
 
 export const metadata = {
-  title: 'Politique de cookies | EcoMakers',
-  description: "Politique d'utilisation des cookies sur le site EcoMakers.",
+  title: "Politique des Cookies - EcoMakers",
+  description: "Politique utilisation des cookies sur le site EcoMakers.fr conformément au RGPD.",
+  keywords: "cookies, politique cookies, RGPD",
+  openGraph: {
+    title: "Politique des Cookies - EcoMakers",
+    description: "Politique utilisation des cookies sur le site EcoMakers.fr conformément au RGPD.",
+    url: "https://ecomakers.fr/cookies",
+    siteName: "EcoMakers",
+    locale: "fr_FR",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Politique des Cookies - EcoMakers",
+    description: "Politique utilisation des cookies sur le site EcoMakers.fr conformément au RGPD.",
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
 }
 
 export default function CookiesPage() {

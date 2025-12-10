@@ -11,8 +11,26 @@ import FaqCandidatsSection from '@/components/landing/sections/ecomakers/candida
 import CtaFinalCandidatsSection from '@/components/landing/sections/ecomakers/candidats/CtaFinalCandidatsSection'
 
 export const metadata = {
-  title: 'Candidats - Opportunités GTB/GTC | EcoMakers',
-  description: "Accédez aux meilleures opportunités GTB/GTC d'Île-de-France. Offres exclusives, accompagnement personnalisé.",
+  title: "Offres Emploi GTB/GTC - EcoMakers | Talents Ile-de-France",
+  description: "Accédez aux meilleures opportunités GTB/GTC avant leur publication. Accompagnement personnalisé. Opportunités exclusives en Ile-de-France. Rejoignez 2000+ talents.",
+  keywords: "emploi GTB, offre GTB, carrière GTC, technicien GTB emploi, ingénieur GTC offre, Ile-de-France",
+  openGraph: {
+    title: "Offres Emploi GTB/GTC - EcoMakers | Talents Ile-de-France",
+    description: "Accédez aux meilleures opportunités GTB/GTC avant leur publication. Accompagnement personnalisé. Opportunités exclusives en Ile-de-France. Rejoignez 2000+ talents.",
+    url: "https://ecomakers.fr/candidats",
+    siteName: "EcoMakers",
+    locale: "fr_FR",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Offres Emploi GTB/GTC - EcoMakers | Talents Ile-de-France",
+    description: "Accédez aux meilleures opportunités GTB/GTC avant leur publication. Accompagnement personnalisé. Opportunités exclusives en Ile-de-France. Rejoignez 2000+ talents.",
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
 }
 
 export default function CandidatsPage() {

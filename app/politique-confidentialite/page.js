@@ -2,8 +2,26 @@ import Header from '@/components/landing/layout/Header'
 import Footer from '@/components/landing/layout/Footer'
 
 export const metadata = {
-  title: 'Politique de confidentialité | EcoMakers',
-  description: "Politique de confidentialité et protection des données personnelles EcoMakers.",
+  title: "Politique de Confidentialité - EcoMakers",
+  description: "Politique de confidentialité et protection des données personnelles sur EcoMakers.fr conformément au RGPD.",
+  keywords: "politique confidentialité, RGPD, données personnelles",
+  openGraph: {
+    title: "Politique de Confidentialité - EcoMakers",
+    description: "Politique de confidentialité et protection des données personnelles sur EcoMakers.fr conformément au RGPD.",
+    url: "https://ecomakers.fr/politique-confidentialite",
+    siteName: "EcoMakers",
+    locale: "fr_FR",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Politique de Confidentialité - EcoMakers",
+    description: "Politique de confidentialité et protection des données personnelles sur EcoMakers.fr conformément au RGPD.",
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
 }
 
 export default function PolitiqueconfidentialitePage() {
