@@ -1,12 +1,20 @@
 "use client"
 
-import { useState } from "react"
+import { useState, useEffect, useRef } from "react"
 import { Button } from "@/components/ui/button"
 import { CheckCircle } from "lucide-react"
 
 export default function FormAnalyseSection() {
   const [isSubmitting, setIsSubmitting] = useState(false)
   const [isSubmitted, setIsSubmitted] = useState(false)
+  const sectionRef = useRef(null)
+
+  // Scroll vers le message de confirmation après soumission
+  useEffect(() => {
+    if (isSubmitted && sectionRef.current) {
+      sectionRef.current.scrollIntoView({ behavior: 'smooth', block: 'center' })
+    }
+  }, [isSubmitted])
 
   const handleSubmit = async (e) => {
     e.preventDefault()
@@ -16,14 +24,19 @@ export default function FormAnalyseSection() {
     const formData = new FormData(form)
     
     try {
-      await fetch("https://formspree.io/f/mzznvvdw", {
+      const response = await fetch("https://formspree.io/f/mzznvvdw", {
         method: "POST",
         body: formData,
         headers: {
           Accept: "application/json",
         },
       })
-      setIsSubmitted(true)
+      
+      if (response.ok) {
+        setIsSubmitted(true)
+      } else {
+        throw new Error("Erreur serveur")
+      }
     } catch (error) {
       console.error("Erreur:", error)
       alert("Une erreur est survenue. Veuillez réessayer.")
@@ -34,13 +47,16 @@ export default function FormAnalyseSection() {
 
   if (isSubmitted) {
     return (
-      <section className="w-full py-12 md:py-24 lg:py-32" id="formulaire">
+      <section ref={sectionRef} className="w-full py-12 md:py-24 lg:py-32" id="formulaire">
         <div className="container px-4 md:px-6">
           <div className="mx-auto max-w-2xl text-center space-y-4">
             <CheckCircle className="w-16 h-16 text-primary mx-auto" />
             <h2 className="text-3xl font-bold">Demande reçue !</h2>
             <p className="text-muted-foreground">
               Vous recevrez votre analyse de marché personnalisée sous 24h. Surveillez votre boîte mail.
+            </p>
+            <p className="text-sm text-muted-foreground mt-4">
+              📧 Un email de confirmation vient de vous être envoyé.
             </p>
           </div>
         </div>
@@ -49,7 +65,7 @@ export default function FormAnalyseSection() {
   }
 
   return (
-    <section className="w-full py-12 md:py-24 lg:py-32 bg-muted/50" id="formulaire">
+    <section ref={sectionRef} className="w-full py-12 md:py-24 lg:py-32 bg-muted/50" id="formulaire">
       <div className="container px-4 md:px-6">
         <div className="mx-auto max-w-2xl space-y-8">
           <div className="space-y-4 text-center">
