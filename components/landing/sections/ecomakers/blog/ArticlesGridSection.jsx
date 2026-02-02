@@ -3,6 +3,18 @@ import Link from "next/link"
 
 const articles = [
   {
+    id: 5,
+    title: "Pourquoi la majorité des GTB n'atteignent jamais leur potentiel",
+    excerpt: "Interview terrain avec Yacine Ben Youssef, consultant GTB. 6 ans d'expérience, des dizaines de sites audités : diagnostic réel sur l'état des installations GTB en France.",
+    date: "1 février 2026",
+    datetime: "2026-02-01",
+    readTime: "12 min",
+    category: "Interview Terrain",
+    slug: "interview-gtb-yacine-consultant",
+    useImage: false,
+    gradient: "from-secondary to-secondary/80"
+  },
+  {
     id: 4,
     title: "CPF + Formation GTB 2025 : Transformez Vos Droits en Certification (Guide Complet)",
     excerpt: "40M de comptes CPF en France. Découvrez comment financer votre certification GTB (Niagara N4, protocoles) avec vos droits CPF et booster votre carrière.",
