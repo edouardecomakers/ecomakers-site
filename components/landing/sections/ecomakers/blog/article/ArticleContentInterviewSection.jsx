@@ -14,7 +14,8 @@ import {
   GraduationCap,
   Building2,
   TrendingUp,
-  MessageSquareQuote
+  MessageSquareQuote,
+  Linkedin
 } from "lucide-react"
 
 export default function ArticleContentInterviewSection() {
@@ -36,12 +37,12 @@ export default function ArticleContentInterviewSection() {
                   <div className="text-sm text-muted-foreground">non exploités efficacement</div>
                 </div>
                 <div className="p-6 text-center">
-                  <div className="text-4xl font-bold text-primary mb-2">30-45%</div>
+                  <div className="text-4xl font-bold text-primary mb-2">20-30%</div>
                   <div className="text-sm text-muted-foreground">d&apos;économies possibles</div>
                 </div>
               </div>
               <div className="px-6 py-3 bg-muted/30 text-xs text-muted-foreground border-t text-center">
-                Sources : Observatoire GIMELEC 2024, estimation terrain Yacine Ben Youssef
+                Sources : Observatoire GIMELEC 2024 et ADEME
               </div>
             </CardContent>
           </Card>
@@ -50,10 +51,10 @@ export default function ArticleContentInterviewSection() {
         {/* Intro */}
         <div className="rounded-lg border bg-muted/50 p-8 mb-12">
           <p className="text-muted-foreground mb-6 text-base leading-relaxed">
-            Selon l&apos;Observatoire national du déploiement des BACS (GIMELEC, 2024), seulement 15% des bâtiments tertiaires français sont équipés de GTB. Et parmi ceux-là, près de la moitié ne sont pas exploités efficacement.
+            15% des bâtiments équipés. La moitié mal exploités. Des millions d&apos;euros d&apos;économies qui passent à la trappe chaque année.
           </p>
           <p className="text-muted-foreground text-base leading-relaxed">
-            Mais qu&apos;en est-il vraiment sur le terrain ? Nous avons interrogé Yacine Ben Youssef, consultant GTB indépendant. Son constat va plus loin que les statistiques officielles.
+            Pourquoi ? Comment éviter ça ? Yacine Ben Youssef nous livre un retour d&apos;expérience terrain sans concession. Pour tous ceux qui conçoivent, installent, exploitent ou commandent une GTB.
           </p>
         </div>
 
@@ -392,7 +393,7 @@ export default function ArticleContentInterviewSection() {
                   <div className="text-sm text-muted-foreground">de surconsommation</div>
                 </div>
                 <div className="p-6 text-center">
-                  <div className="text-2xl font-bold text-primary mb-1">45%</div>
+                  <div className="text-2xl font-bold text-primary mb-1">30%</div>
                   <div className="text-sm text-muted-foreground">d&apos;économies sur GTB neuve mal paramétrée</div>
                 </div>
                 <div className="p-6 text-center">
@@ -413,12 +414,21 @@ export default function ArticleContentInterviewSection() {
           • • •
         </div>
 
-        {/* À propos */}
+        {/* À propos + LinkedIn */}
         <div className="my-10 p-8 rounded-lg bg-muted/50 border">
           <h3 className="font-bold text-xl mb-4">À propos de Yacine Ben Youssef</h3>
-          <p className="text-muted-foreground leading-relaxed">
+          <p className="text-muted-foreground leading-relaxed mb-6">
             Après plusieurs années comme Chef de Projet et Responsable d&apos;Affaires GTB pour des intégrateurs et bureaux d&apos;études en Île-de-France, Yacine Ben Youssef a fondé Smart Tech Engineering pour accompagner directement les décideurs : leur permettre de reprendre en main leurs projets GTB et d&apos;en faire de vrais outils de performance énergétique.
           </p>
+          <a 
+            href="https://www.linkedin.com/in/yacine-ben-youssef-5a29b9183/" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 text-secondary hover:text-secondary/80 font-medium transition-colors"
+          >
+            <Linkedin className="h-5 w-5" />
+            Voir le profil LinkedIn de Yacine
+          </a>
         </div>
 
       </div>

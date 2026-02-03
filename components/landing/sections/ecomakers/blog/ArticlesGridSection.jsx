@@ -5,7 +5,7 @@ const articles = [
   {
     id: 5,
     title: "Pourquoi la majorité des GTB n'atteignent jamais leur potentiel",
-    excerpt: "Interview terrain avec Yacine Ben Youssef, consultant GTB. 6 ans d'expérience, des dizaines de sites audités : diagnostic réel sur l'état des installations GTB en France.",
+    excerpt: "Interview avec Yacine Ben Youssef, consultant GTB indépendant. 6 ans d'expérience, des dizaines de sites audités.",
     date: "1 février 2026",
     datetime: "2026-02-01",
     readTime: "12 min",

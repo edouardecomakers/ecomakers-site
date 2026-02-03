@@ -6,11 +6,11 @@ import CtaBlogSection from '@/components/landing/sections/ecomakers/blog/CtaBlog
 
 export const metadata = {
   title: "Pourquoi la majorité des GTB n'atteignent jamais leur potentiel | EcoMakers",
-  description: "Interview terrain avec Yacine Ben Youssef, consultant GTB. 6 ans d'expérience, des dizaines de sites audités : diagnostic réel sur l'état des installations GTB en France.",
+  description: "Interview terrain avec Yacine Ben Youssef, consultant GTB indépendant. 6 ans d'expérience, des dizaines de sites audités.",
   keywords: "GTB, interview, consultant GTB, audit GTB, optimisation énergétique, capteurs, régulation, CEE, Smart Tech Engineering",
   openGraph: {
     title: "Pourquoi la majorité des GTB n'atteignent jamais leur potentiel | EcoMakers",
-    description: "Interview terrain avec Yacine Ben Youssef, consultant GTB. Diagnostic réel sur l'état des installations GTB en France.",
+    description: "Interview terrain avec Yacine Ben Youssef, consultant GTB indépendant. 6 ans d'expérience, des dizaines de sites audités.",
     url: "https://ecomakers.fr/blog/interview-gtb-yacine-consultant",
     siteName: "EcoMakers",
     locale: "fr_FR",
@@ -20,7 +20,7 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Interview GTB : Pourquoi la majorité des GTB n'atteignent jamais leur potentiel",
-    description: "6 ans d'expérience, des dizaines de sites audités : diagnostic terrain sur l'état réel des installations GTB en France.",
+    description: "Interview terrain avec Yacine Ben Youssef, consultant GTB indépendant. 6 ans d'expérience, des dizaines de sites audités.",
   },
   robots: {
     index: true,
@@ -36,7 +36,7 @@ export default function InterviewGTBYacinePage() {
         <ArticleHeroSection 
           category="Interview Terrain"
           title="Pourquoi la majorité des GTB n'atteignent jamais leur potentiel"
-          excerpt="Interview avec Yacine Ben Youssef, consultant GTB. 6 ans d'expérience, des dizaines de sites audités : diagnostic terrain sur l'état réel des installations GTB en France."
+          excerpt="Interview avec Yacine Ben Youssef, consultant GTB indépendant. 6 ans d'expérience, des dizaines de sites audités."
           date="1 février 2026"
           datetime="2026-02-01"
           readTime="12 min"
