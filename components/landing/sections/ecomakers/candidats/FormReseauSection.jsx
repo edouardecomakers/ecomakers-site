@@ -73,7 +73,7 @@ export default function FormReseauSection() {
               Rejoignez le réseau EcoMakers
             </h2>
             <p className="text-muted-foreground text-lg">
-              1 minute pour accéder aux meilleures opportunités GTB/GTC
+              1 minute pour rejoindre le réseau. On s&apos;occupe du reste.
             </p>
           </div>
 

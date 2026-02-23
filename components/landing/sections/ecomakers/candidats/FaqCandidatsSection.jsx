@@ -12,6 +12,10 @@ export default function FaqCandidatsSection() {
       answer: "Nous sommes payés par les entreprises qui recrutent. Notre service est 100% gratuit pour les candidats. Aucun frais, jamais."
     },
     {
+      question: "Est-ce que vous m'envoyez postuler sur des offres ?",
+      answer: "Non. C'est l'inverse. On définit ensemble votre projet et c'est nous qui allons solliciter les entreprises de notre réseau pour vous. Vous ne postulez nulle part."
+    },
+    {
       question: "Vais-je recevoir des offres non pertinentes ?",
       answer: "Non. Nous ne vous contactons que si nous avons une opportunité qui correspond parfaitement à votre profil, vos compétences et vos aspirations. Pas de spam."
     },
@@ -21,7 +25,7 @@ export default function FaqCandidatsSection() {
     },
     {
       question: "Que se passe-t-il après mon inscription ?",
-      answer: "Validation immédiate dans notre réseau. Nous vous contactons uniquement si nous identifions une opportunité qui vous correspond. Vous pouvez suivre notre page entreprise EcoMakers LinkedIn sur laquelle certaines offres sont publiées."
+      answer: "Nous vous recontactons pour un échange approfondi sur votre parcours et vos aspirations. Ensemble, on définit votre projet. Ensuite, c'est nous qui approchons les entreprises qui correspondent. Vous pouvez aussi suivre notre page LinkedIn EcoMakers sur laquelle certaines offres sont publiées."
     },
     {
       question: "Proposez-vous un accompagnement même si je ne cherche pas activement ?",
@@ -29,7 +33,7 @@ export default function FaqCandidatsSection() {
     },
     {
       question: "Quels types d'entreprises recrutent via EcoMakers ?",
-      answer: "Intégrateurs, installateurs, bureaux d'études, energy managers, entreprises avec services techniques internes. Tous les acteurs de la GTB/GTC et performance énergétique en Île-de-France."
+      answer: "Intégrateurs, installateurs, bureaux d'études, energy managers, entreprises avec services techniques internes. Tous les acteurs de la GTB/GTC et performance énergétique."
     },
     {
       question: "Combien de temps dure le process de recrutement ?",

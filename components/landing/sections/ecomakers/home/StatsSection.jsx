@@ -40,7 +40,7 @@ export default function StatsSection() {
         </div>
         <div className="flex flex-col items-center justify-center text-center">
           <p className="text-lg font-medium text-gray-700 dark:text-gray-300">
-            EcoMakers a été créé pour résoudre ce problème.
+            EcoMakers a été créé pour résoudre ce problème. Publier une annonce ne suffit plus : nous identifions et approchons directement les profils que vous cherchez.
           </p>
         </div>
       </div>

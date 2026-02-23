@@ -14,7 +14,7 @@ export default function Footer() {
               EcoMakers
             </h3>
             <p className="text-sm text-gray-600 dark:text-gray-400 mb-4">
-              Le spécialiste du recrutement GTB/GTC en Île-de-France. 
+              Le spécialiste du recrutement GTB/GTC. 
               Nous connectons les meilleurs talents avec les entreprises qui en ont besoin.
             </p>
             <p className="text-sm text-gray-600 dark:text-gray-400">

@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button"
-import { Target, Clock, TrendingUp } from "lucide-react"
+import { Compass, Rocket, TrendingUp } from "lucide-react"
 
 export default function HeroCandidatsSection() {
   return (
@@ -8,24 +8,21 @@ export default function HeroCandidatsSection() {
         <div className="flex flex-col items-center space-y-8 text-center">
           <div className="space-y-4 max-w-3xl">
             <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl">
-              Accédez aux meilleures opportunités GTB/GTC
+              Donnez un vrai cap à votre carrière GTB/GTC
             </h1>
             <p className="text-lg text-muted-foreground md:text-xl">
-              Spécialisation GTB/GTC et performance énergétique en Île-de-France
-            </p>
-            <p className="text-muted-foreground">
-              Offres exclusives, process transparent, accompagnement personnalisé
+              Le seul cabinet 100% spécialisé GTB/GTC. On ne vous propose pas juste une offre — on construit avec vous votre prochaine étape et on va la chercher pour vous.
             </p>
           </div>
           
           <div className="grid gap-4 sm:grid-cols-3 max-w-3xl w-full">
             <div className="flex items-center gap-3 rounded-lg border bg-card p-4">
-              <Target className="h-5 w-5 text-secondary flex-shrink-0" />
-              <span className="text-sm">Opportunités ciblées et confidentielles</span>
+              <Compass className="h-5 w-5 text-secondary flex-shrink-0" />
+              <span className="text-sm">Accompagnement carrière personnalisé</span>
             </div>
             <div className="flex items-center gap-3 rounded-lg border bg-card p-4">
-              <Clock className="h-5 w-5 text-secondary flex-shrink-0" />
-              <span className="text-sm">Zéro perte de temps</span>
+              <Rocket className="h-5 w-5 text-secondary flex-shrink-0" />
+              <span className="text-sm">On démarche les entreprises pour vous</span>
             </div>
             <div className="flex items-center gap-3 rounded-lg border bg-card p-4">
               <TrendingUp className="h-5 w-5 text-secondary flex-shrink-0" />

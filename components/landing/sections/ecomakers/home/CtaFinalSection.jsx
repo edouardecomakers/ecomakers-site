@@ -24,7 +24,7 @@ export default function CtaFinalSection() {
             >
               <a href="/entreprises" className="flex items-center justify-center">
                 <Building2 className="mr-2 h-4 w-4 md:h-5 md:w-5 flex-shrink-0" />
-                <span className="truncate">Trouver 2 profils en 7 jours</span>
+                <span className="truncate">Trouver les meilleurs profils GTB/GTC</span>
               </a>
             </Button>
             
@@ -36,7 +36,7 @@ export default function CtaFinalSection() {
             >
               <a href="/candidats" className="flex items-center justify-center">
                 <Users className="mr-2 h-4 w-4 md:h-5 md:w-5 flex-shrink-0" />
-                <span className="truncate">Offres exclusives gratuites</span>
+                <span className="truncate">Rejoindre le réseau talents</span>
               </a>
             </Button>
           </div>

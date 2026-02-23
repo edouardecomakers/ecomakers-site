@@ -18,17 +18,17 @@ export default function ValuePropsSection() {
               <div className="space-y-4">
                 <h3 className="text-2xl font-bold">Vous recrutez en GTB/GTC ?</h3>
                 <p className="text-muted-foreground">
-                  Accédez aux meilleurs talents GTB/GTC d'Île-de-France en 7 jours.
+                  Accédez aux talents qui ne répondent pas aux annonces, grâce à notre réseau et notre approche directe.
                 </p>
               </div>
               <div className="space-y-3">
                 <div className="flex items-start gap-3">
                   <CheckCircle className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
-                  <p className="text-sm">Accès aux profils qui ne postulent pas</p>
+                  <p className="text-sm">Spécialisation exclusive GTB/GTC : on parle le même langage</p>
                 </div>
                 <div className="flex items-start gap-3">
                   <CheckCircle className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
-                  <p className="text-sm">Process en 4 étapes structurées</p>
+                  <p className="text-sm">100% approche directe : nous chassons, on ne publie pas</p>
                 </div>
                 <div className="flex items-start gap-3">
                   <CheckCircle className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
@@ -36,7 +36,7 @@ export default function ValuePropsSection() {
                 </div>
                 <div className="flex items-start gap-3">
                   <CheckCircle className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
-                  <p className="text-sm">Double garantie : 7 jours + remplacement</p>
+                  <p className="text-sm">Garantie remplacement incluse</p>
                 </div>
               </div>
             </div>
@@ -48,21 +48,21 @@ export default function ValuePropsSection() {
               <div className="space-y-4">
                 <h3 className="text-2xl font-bold">Vous travaillez en GTB/GTC ?</h3>
                 <p className="text-muted-foreground">
-                  Accédez aux meilleures opportunités avant leur publication.
+                  On ne vous propose pas juste une offre. On construit avec vous la prochaine étape de votre carrière.
                 </p>
               </div>
               <div className="space-y-3">
                 <div className="flex items-start gap-3">
                   <CheckCircle className="h-5 w-5 text-secondary flex-shrink-0 mt-0.5" />
-                  <p className="text-sm">Opportunités exclusives et ciblées</p>
+                  <p className="text-sm">Accompagnement carrière personnalisé</p>
                 </div>
                 <div className="flex items-start gap-3">
                   <CheckCircle className="h-5 w-5 text-secondary flex-shrink-0 mt-0.5" />
-                  <p className="text-sm">Accompagnement personnalisé et transparent</p>
+                  <p className="text-sm">C&apos;est nous qui sollicitons les entreprises pour vous</p>
                 </div>
                 <div className="flex items-start gap-3">
                   <CheckCircle className="h-5 w-5 text-secondary flex-shrink-0 mt-0.5" />
-                  <p className="text-sm">Contenu gratuit pour votre carrière</p>
+                  <p className="text-sm">Opportunités exclusives et confidentielles</p>
                 </div>
                 <div className="flex items-start gap-3">
                   <CheckCircle className="h-5 w-5 text-secondary flex-shrink-0 mt-0.5" />

@@ -3,18 +3,19 @@ import Footer from '@/components/landing/layout/Footer'
 import HeroSection from '@/components/landing/sections/ecomakers/home/HeroSection'
 import StatsSection from '@/components/landing/sections/ecomakers/home/StatsSection'
 import ValuePropsSection from '@/components/landing/sections/ecomakers/home/ValuePropsSection'
+import TrustSection from '@/components/landing/sections/ecomakers/home/TrustSection'
 import MetiersSection from '@/components/landing/sections/ecomakers/home/MetiersSection'
 import TeaserEntreprisesSection from '@/components/landing/sections/ecomakers/home/TeaserEntreprisesSection'
 import TeaserCandidatsSection from '@/components/landing/sections/ecomakers/home/TeaserCandidatsSection'
 import CtaFinalSection from '@/components/landing/sections/ecomakers/home/CtaFinalSection'
 
 export const metadata = {
-  title: "EcoMakers - Recrutement GTB/GTC en Ile-de-France | Garantie 7 jours",
-  description: "Cabinet de recrutement spécialisé en GTB/GTC et performance énergétique. 2 profils qualifiés en 7 jours ou -50%. Paiement au succès. 2000+ talents en Ile-de-France.",
-  keywords: "recrutement GTB, recrutement GTC, technicien GTB, ingénieur GTB, performance énergétique, Ile-de-France, Paris",
+  title: "EcoMakers - Cabinet de recrutement spécialisé GTB/GTC | Approche directe",
+  description: "Cabinet de recrutement 100% spécialisé GTB/GTC et performance énergétique. Approche directe, zéro annonce. Paiement au succès. 2000+ profils dans notre réseau.",
+  keywords: "recrutement GTB, recrutement GTC, technicien GTB, ingénieur GTB, performance énergétique, approche directe, chasse de têtes GTB",
   openGraph: {
-    title: "EcoMakers - Recrutement GTB/GTC en Ile-de-France | Garantie 7 jours",
-    description: "Cabinet de recrutement spécialisé en GTB/GTC et performance énergétique. 2 profils qualifiés en 7 jours ou -50%. Paiement au succès. 2000+ talents en Ile-de-France.",
+    title: "EcoMakers - Cabinet de recrutement spécialisé GTB/GTC | Approche directe",
+    description: "Cabinet de recrutement 100% spécialisé GTB/GTC et performance énergétique. Approche directe, zéro annonce. Paiement au succès. 2000+ profils dans notre réseau.",
     url: "https://ecomakers.fr",
     siteName: "EcoMakers",
     locale: "fr_FR",
@@ -22,8 +23,8 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "EcoMakers - Recrutement GTB/GTC en Ile-de-France | Garantie 7 jours",
-    description: "Cabinet de recrutement spécialisé en GTB/GTC et performance énergétique. 2 profils qualifiés en 7 jours ou -50%. Paiement au succès. 2000+ talents en Ile-de-France.",
+    title: "EcoMakers - Cabinet de recrutement spécialisé GTB/GTC | Approche directe",
+    description: "Cabinet de recrutement 100% spécialisé GTB/GTC et performance énergétique. Approche directe, zéro annonce. Paiement au succès. 2000+ profils dans notre réseau.",
   },
   robots: {
     index: true,
@@ -39,6 +40,7 @@ export default function Home() {
         <HeroSection />
         <StatsSection />
         <ValuePropsSection />
+        <TrustSection />
         <MetiersSection />
         <TeaserEntreprisesSection />
         <TeaserCandidatsSection />

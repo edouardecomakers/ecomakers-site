@@ -26,7 +26,7 @@ export default function TrajectoiresSection() {
               </div>
               <div className="flex items-center gap-3">
                 <CheckCircle className="h-5 w-5 text-secondary flex-shrink-0" />
-                <span>Analyses marché et tendances salaires Île-de-France</span>
+                <span>Analyses marché et tendances salaires</span>
               </div>
               <div className="flex items-center gap-3">
                 <CheckCircle className="h-5 w-5 text-secondary flex-shrink-0" />

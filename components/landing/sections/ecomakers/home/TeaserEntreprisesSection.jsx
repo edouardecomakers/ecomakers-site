@@ -11,17 +11,17 @@ const etapes = [
   {
     icon: MessageCircle,
     title: "Cadrage stratégique (30-45 min)",
-    description: "Échange approfondi sur votre contexte, technologies, et critères de sélection."
+    description: "Échange approfondi sur votre contexte, technologies, culture d'entreprise et critères de sélection."
   },
   {
     icon: Target,
-    title: "Sélection chirurgicale (5-7 jours)",
-    description: "Activation de notre réseau de 2000+ profils GTB/GTC. 2 candidats ultra-ciblés."
+    title: "Approche directe ciblée",
+    description: "Activation de notre réseau de 2000+ profils. Identification et approche des candidats correspondant exactement à votre besoin."
   },
   {
     icon: Handshake,
-    title: "Présentation (7 jours max)",
-    description: "2 profils présentés. Organisation entretiens, négociation, suivi jusqu'à l'intégration."
+    title: "Présentation des candidats",
+    description: "Profils qualifiés présentés. Organisation entretiens, négociation, suivi jusqu'à l'intégration."
   }
 ]
 
@@ -35,7 +35,7 @@ export default function TeaserEntreprisesSection() {
               Entreprises
             </div>
             <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-              Comment recruter un profil GTB/GTC en 7 jours
+              Comment recruter un profil GTB/GTC
             </h2>
             <p className="max-w-[700px] text-muted-foreground md:text-xl/relaxed mx-auto">
               Un processus structuré en 4 étapes

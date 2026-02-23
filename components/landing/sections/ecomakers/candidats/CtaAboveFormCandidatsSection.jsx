@@ -6,10 +6,10 @@ export default function CtaAboveFormCandidatsSection() {
       <div className="container px-4 md:px-6">
         <div className="mx-auto max-w-3xl text-center space-y-6">
           <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">
-            Prêt à booster votre carrière ?
+            Prêt à donner un cap à votre carrière ?
           </h2>
           <p className="text-xl text-white/90">
-            Rejoignez notre réseau et accédez aux meilleures opportunités GTB/GTC.
+            Rejoignez notre réseau. On construit ensemble votre projet et on va chercher l&apos;opportunité pour vous.
           </p>
           <Button size="lg" variant="default" className="bg-white text-secondary hover:bg-white/90" asChild>
             <a href="#formulaire">Rejoindre le réseau</a>

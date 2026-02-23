@@ -34,13 +34,13 @@ export default function ProcessHomeSection() {
               2
             </div>
             <div className="space-y-2">
-              <h3 className="font-bold text-lg">2 CANDIDATS QUALIFIÉS</h3>
+              <h3 className="font-bold text-lg">CANDIDATS QUALIFIÉS</h3>
               <p className="text-muted-foreground">
-                Présentation de 2 profils ultra-ciblés avec CV, synthèse détaillée et disponibilités confirmées.
+                Présentation de profils ultra-ciblés issus de notre approche directe, avec CV, synthèse détaillée et disponibilités confirmées.
               </p>
               <div className="flex items-center gap-2 text-sm">
                 <CheckCircle className="h-4 w-4 text-primary" />
-                <span className="font-medium">Délai: 7 jours garanti</span>
+                <span className="font-medium">100% approche directe</span>
               </div>
             </div>
           </div>

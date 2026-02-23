@@ -11,12 +11,12 @@ import FaqCandidatsSection from '@/components/landing/sections/ecomakers/candida
 import CtaFinalCandidatsSection from '@/components/landing/sections/ecomakers/candidats/CtaFinalCandidatsSection'
 
 export const metadata = {
-  title: "Offres Emploi GTB/GTC - EcoMakers | Talents Ile-de-France",
-  description: "Accédez aux meilleures opportunités GTB/GTC avant leur publication. Accompagnement personnalisé. Opportunités exclusives en Ile-de-France. Rejoignez 2000+ talents.",
-  keywords: "emploi GTB, offre GTB, carrière GTC, technicien GTB emploi, ingénieur GTC offre, Ile-de-France",
+  title: "Carrière GTB/GTC - EcoMakers | Accompagnement personnalisé",
+  description: "On ne vous propose pas juste une offre, on construit avec vous votre projet de carrière GTB/GTC. Accompagnement personnalisé, approche directe des entreprises pour vous.",
+  keywords: "emploi GTB, carrière GTC, technicien GTB emploi, ingénieur GTC offre, accompagnement carrière GTB",
   openGraph: {
-    title: "Offres Emploi GTB/GTC - EcoMakers | Talents Ile-de-France",
-    description: "Accédez aux meilleures opportunités GTB/GTC avant leur publication. Accompagnement personnalisé. Opportunités exclusives en Ile-de-France. Rejoignez 2000+ talents.",
+    title: "Carrière GTB/GTC - EcoMakers | Accompagnement personnalisé",
+    description: "On ne vous propose pas juste une offre, on construit avec vous votre projet de carrière GTB/GTC. Accompagnement personnalisé, approche directe des entreprises pour vous.",
     url: "https://ecomakers.fr/candidats",
     siteName: "EcoMakers",
     locale: "fr_FR",
@@ -24,8 +24,8 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Offres Emploi GTB/GTC - EcoMakers | Talents Ile-de-France",
-    description: "Accédez aux meilleures opportunités GTB/GTC avant leur publication. Accompagnement personnalisé. Opportunités exclusives en Ile-de-France. Rejoignez 2000+ talents.",
+    title: "Carrière GTB/GTC - EcoMakers | Accompagnement personnalisé",
+    description: "On ne vous propose pas juste une offre, on construit avec vous votre projet de carrière GTB/GTC. Accompagnement personnalisé, approche directe des entreprises pour vous.",
   },
   robots: {
     index: true,

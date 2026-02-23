@@ -1,4 +1,4 @@
-import { UserPlus, Search, Mail, ArrowRight } from 'lucide-react'
+import { UserPlus, Compass, Rocket, ArrowRight } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import Link from 'next/link'
 
@@ -9,14 +9,14 @@ const etapes = [
     description: "Formulaire en moins de 2 min. Renseignez votre métier, motivations, et situation actuelle."
   },
   {
-    icon: Search,
-    title: "Nous analysons votre profil",
-    description: "Étude de votre parcours LinkedIn, compétences techniques, et trajectoire professionnelle."
+    icon: Compass,
+    title: "On construit votre projet ensemble",
+    description: "Échange approfondi sur votre parcours, vos compétences, vos aspirations. On définit ensemble ce qui vous correspond vraiment."
   },
   {
-    icon: Mail,
-    title: "Opportunités ciblées",
-    description: "Contact uniquement si l'offre correspond vraiment. Accompagnement : analyse, négociation, décision."
+    icon: Rocket,
+    title: "On va chercher l'opportunité pour vous",
+    description: "On sollicite les entreprises de notre réseau qui correspondent à votre projet. Accompagnement complet : préparation, négociation, décision."
   }
 ]
 

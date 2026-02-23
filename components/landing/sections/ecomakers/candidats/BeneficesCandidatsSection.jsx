@@ -1,21 +1,21 @@
-import { CheckCircle, Eye, Zap, TrendingUp } from "lucide-react"
+import { Compass, Rocket, Eye, TrendingUp } from "lucide-react"
 
 export default function BeneficesCandidatsSection() {
   const benefices = [
     {
-      icon: CheckCircle,
-      titre: "Opportunités exclusives et ciblées",
-      description: "Accès à des postes non publiés. Nous ne vous contactons que si l'opportunité correspond parfaitement à votre profil et vos aspirations."
+      icon: Compass,
+      titre: "On construit votre projet avec vous",
+      description: "Pas de matching opportuniste. On prend le temps de comprendre votre parcours, vos compétences, vos aspirations. Ensemble, on définit ce qui vous correspond vraiment."
+    },
+    {
+      icon: Rocket,
+      titre: "On va chercher l'opportunité pour vous",
+      description: "C'est nous qui sollicitons les entreprises de notre réseau. On ne vous envoie pas postuler — on vous ouvre des portes que vous ne pourriez pas ouvrir seul."
     },
     {
       icon: Eye,
-      titre: "Accompagnement transparent",
-      description: "Connaissance approfondie des métiers GTB/GTC et des entreprises. Transparence totale sur le poste, l'environnement, les technologies et la rémunération."
-    },
-    {
-      icon: Zap,
-      titre: "Process rapide et efficace",
-      description: "Pas de perte de temps. Échanges directs, retours rapides, process structuré. Vous savez où vous en êtes à chaque étape."
+      titre: "Accompagnement transparent et complet",
+      description: "Connaissance approfondie des métiers GTB/GTC et des entreprises. Transparence totale sur le poste, l'environnement, les technologies et la rémunération. Préparation entretiens et négociation salariale."
     },
     {
       icon: TrendingUp,
