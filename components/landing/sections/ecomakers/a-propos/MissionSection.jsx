@@ -14,7 +14,7 @@ export default function MissionSection() {
               <h3 className="text-xl font-bold">Pour les entreprises:</h3>
             </div>
             <p className="text-muted-foreground">
-              Résoudre la pénurie de talents GTB/GTC en Île-de-France. Présenter 2 profils qualifiés en 7 jours, avec garantie résultat.
+              Identifier et approcher directement les meilleurs profils GTB/GTC. Facturation au succès, garantie remplacement.
             </p>
           </div>
           <div className="flex flex-col space-y-4 bg-card p-6 rounded-lg border shadow-sm">

@@ -46,7 +46,7 @@ export default function HeroSection() {
           <div className="flex flex-col items-center gap-4 sm:flex-row sm:justify-center sm:gap-8">
             <div className="flex items-center gap-2 text-white">
               <Users className="h-5 w-5" />
-              <span className="text-sm">2000+ profils dans notre réseau</span>
+              <span className="text-sm">Des profils disponibles dès le jour 1</span>
             </div>
             <div className="flex items-center gap-2 text-white">
               <Crosshair className="h-5 w-5" />
@@ -61,8 +61,8 @@ export default function HeroSection() {
           {/* 2 CTAs */}
           <div className="flex flex-col gap-4 sm:flex-row sm:justify-center w-full">
             <Button size="lg" variant="default" asChild className="w-full sm:w-auto">
-              <a href="/entreprises#formulaire" className="text-sm md:text-base px-4 md:px-6">
-                Entreprises : Analyse gratuite
+              <a href="/contact" className="text-sm md:text-base px-4 md:px-6">
+                Confiez-nous votre besoin
               </a>
             </Button>
             <Button size="lg" variant="secondary" asChild className="w-full sm:w-auto">

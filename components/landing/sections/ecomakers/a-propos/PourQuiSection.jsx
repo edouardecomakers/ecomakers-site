@@ -20,28 +20,28 @@ export default function PourQuiSection() {
             <h3 className="text-2xl font-semibold text-gray-900">Entreprises GTB/GTC</h3>
           </div>
           <p className="text-gray-600 text-lg">
-            Vous recrutez des profils GTB/GTC en Île-de-France et vous ne pouvez pas attendre 3-4 mois ? Nous vous donnons accès aux talents qui ne postulent pas aux annonces.
+            Vous recrutez des profils GTB/GTC et les cabinets classiques n&apos;y arrivent pas ? Nous vous donnons accès aux talents qui ne répondent pas aux annonces.
           </p>
           <div className="space-y-4">
             <div className="flex items-start gap-3">
               <Target className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
               <div>
                 <p className="font-semibold text-gray-900">Accès immédiat aux meilleurs profils</p>
-                <p className="text-sm text-gray-600">Base de talents déjà constituée et qualifiée</p>
+                <p className="text-sm text-gray-600">Des profils disponibles, approchés directement</p>
               </div>
             </div>
             <div className="flex items-start gap-3">
               <TrendingUp className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
               <div>
                 <p className="font-semibold text-gray-900">Process structuré, délais respectés</p>
-                <p className="text-sm text-gray-600">Méthode éprouvée, outils data, suivi rigoureux</p>
+                <p className="text-sm text-gray-600">Méthode éprouvée, suivi rigoureux</p>
               </div>
             </div>
             <div className="flex items-start gap-3">
               <Award className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
               <div>
-                <p className="font-semibold text-gray-900">Garantie résultat : 2 profils en 7 jours ou -50%</p>
-                <p className="text-sm text-gray-600">Nous prenons le risque avec vous</p>
+                <p className="font-semibold text-gray-900">Facturation à la signature uniquement</p>
+                <p className="text-sm text-gray-600">Aucun acompte, garantie remplacement</p>
               </div>
             </div>
           </div>
@@ -68,7 +68,7 @@ export default function PourQuiSection() {
               <CheckCircle className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
               <div>
                 <p className="font-semibold text-gray-900">Accompagnement personnalisé</p>
-                <p className="text-sm text-gray-600">Conseil sur les moments clés : négociation, évolution, reconversion</p>
+                <p className="text-sm text-gray-600">On construit votre projet avec vous, pas de placement forcé</p>
               </div>
             </div>
             <div className="flex items-start gap-3">

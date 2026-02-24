@@ -8,37 +8,37 @@ export default function FaqEntreprisesSection() {
 
   const faqs = [
     {
-      question: "Pourquoi 7 jours alors que le marché prend 3-4 mois ?",
-      answer: "Nous activons notre réseau pré-qualifié de 2000+ professionnels GTB/GTC. On ne commence pas nos recherches à ce moment-là : nous connaissons déjà les profils, leurs compétences, motivations et disponibilités. Notre approche directe et notre spécialisation nous permettent d'identifier rapidement les 2 meilleurs candidats pour votre besoin."
+      question: "Qu'est-ce que l'approche directe et en quoi ça change tout ?",
+      answer: "Contrairement aux cabinets qui publient des annonces et attendent, nous identifions et contactons directement les profils qui correspondent à votre besoin. C'est ce qui nous permet d'accéder à des candidats en poste, non visibles sur le marché, et de recruter plus efficacement."
     },
     {
-      question: "Si les 2 profils ne me conviennent pas ?",
-      answer: "Nous vous en présentons 2 autres, sans frais supplémentaires. Si après plusieurs présentations aucun candidat ne convient et que le remplacement ne fonctionne pas, nous procédons au remboursement. Notre engagement : vous devez recruter avec succès."
+      question: "Si les profils présentés ne me conviennent pas ?",
+      answer: "Nous poursuivons la recherche jusqu'à trouver le bon profil. Notre approche directe nous permet d'élargir le périmètre et d'aller chercher de nouveaux candidats correspondant à vos critères."
     },
     {
       question: "Comment garantissez-vous la qualité des candidats ?",
-      answer: "Chaque profil de notre réseau est pré-qualifié : compétences techniques vérifiées (KNX, BACnet, Tridium, etc.), expériences validées, motivations alignées. Nous ne travaillons qu'avec des professionnels GTB/GTC actifs et engagés. Notre taux de succès : 95% des candidats passent la période d'essai."
+      answer: "Chaque candidat est pré-qualifié sur ses compétences techniques (KNX, BACnet, Tridium...), ses motivations, sa trajectoire et sa disponibilité réelle. Nous ne présentons que des profils que nous avons personnellement évalués."
     },
     {
       question: "Facturez-vous des frais si le candidat démissionne après la période d'essai ?",
-      answer: "Non. Notre garantie de remplacement couvre toute la période d'essai, y compris en cas de renouvellement (généralement 3 à 6 mois selon le poste). Si le candidat ne valide pas sa période d'essai pour quelque raison que ce soit, nous le remplaçons gratuitement."
+      answer: "Notre garantie couvre la période d'essai. Si le candidat quitte avant la fin de sa période d'essai, nous relançons la recherche sans frais supplémentaires."
     },
     {
       question: "Dois-je signer un contrat d'exclusivité ?",
-      answer: "Non, aucun contrat d'exclusivité. Vous restez libre de recruter par vos propres moyens ou via d'autres cabinets. Nous facturons uniquement si vous recrutez un candidat que nous vous avons présenté."
+      answer: "Non. Aucune exclusivité requise. Vous restez libre de mener vos recherches en parallèle."
     },
     {
       question: "Comment se passe le paiement ?",
-      answer: "20% du salaire annuel brut, payable en 2 fois : 70% au démarrage du candidat, 30% à la validation de sa période d'essai. Aucun acompte, aucun frais avant résultat. Si nous ne trouvons pas 2 profils en 7 jours : -50% sur nos honoraires (soit 10% du salaire)."
+      answer: "20% du salaire annuel brut, facturé à la signature du candidat. Aucun acompte, aucun frais si la mission n'aboutit pas."
     },
     {
       question: "Quels types d'entreprises accompagnez-vous ?",
-      answer: "Nous travaillons avec les acteurs de la GTB/GTC en Île-de-France : intégrateurs, installateurs, bureaux d'études, energy managers, et entreprises avec des services techniques internes. Notre expertise couvre tous les segments du marché de la performance énergétique."
+      answer: "Intégrateurs, installateurs, bureaux d'études, energy managers, entreprises avec services techniques internes. Tous les acteurs de la GTB/GTC et de la performance énergétique."
     }
   ]
 
   return (
-    <section className="w-full py-12 md:py-24 lg:py-32">
+    <section className="w-full py-12 md:py-24 lg:py-32" id="faq">
       <div className="container px-4 md:px-6">
         <div className="mx-auto max-w-3xl space-y-8">
           <div className="text-center space-y-4">

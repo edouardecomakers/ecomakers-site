@@ -11,7 +11,7 @@ export default function HeroCandidatsSection() {
               Donnez un vrai cap à votre carrière GTB/GTC
             </h1>
             <p className="text-lg text-muted-foreground md:text-xl">
-              Le seul cabinet 100% spécialisé GTB/GTC. On ne vous propose pas juste une offre — on construit avec vous votre prochaine étape et on va la chercher pour vous.
+              Le seul cabinet 100% spécialisé GTB/GTC. On ne vous propose pas juste une offre, on construit avec vous votre prochaine étape et on va la chercher pour vous.
             </p>
           </div>
           

@@ -22,9 +22,9 @@ export default function CtaFinalSection() {
               className="text-sm md:text-lg px-4 py-3 md:px-8 md:py-6 w-full sm:w-auto"
               asChild
             >
-              <a href="/entreprises" className="flex items-center justify-center">
+              <a href="/contact" className="flex items-center justify-center">
                 <Building2 className="mr-2 h-4 w-4 md:h-5 md:w-5 flex-shrink-0" />
-                <span className="truncate">Trouver les meilleurs profils GTB/GTC</span>
+                <span className="truncate">Confiez-nous votre besoin</span>
               </a>
             </Button>
             

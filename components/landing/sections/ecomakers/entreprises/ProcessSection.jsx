@@ -6,7 +6,7 @@ export default function ProcessSection() {
       <div className="container px-4 md:px-6">
         <div className="flex flex-col items-center justify-center space-y-4 text-center">
           <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Comment nous travaillons</h2>
-          <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed">Un process structuré, des résultats en 7 jours</p>
+          <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed">Un process structuré, une approche directe ciblée</p>
         </div>
         <div className="mx-auto grid max-w-5xl gap-6 py-12 lg:grid-cols-2">
           <div className="flex gap-4 p-6 bg-card rounded-lg border">
@@ -15,15 +15,15 @@ export default function ProcessSection() {
             </div>
             <div className="space-y-2">
               <div className="inline-block rounded-full bg-primary/10 px-3 py-1 text-xs font-medium text-primary mb-2">
-                Délai: 24h
+                Étape 1
               </div>
               <h3 className="font-bold text-lg">ANALYSE GRATUITE</h3>
               <p className="text-muted-foreground">
-                Formulaire 2 min. Rapport personnalisé 24h: nombre candidats disponibles, fourchettes salariales, 3-4 profils anonymisés, niveau tension, stratégie recommandée.
+                Formulaire 2 min. Rapport personnalisé : nombre de candidats disponibles, fourchettes salariales, profils anonymisés, niveau de tension du marché, stratégie recommandée.
               </p>
               <div className="flex items-center gap-2 text-sm">
                 <CheckCircle className="h-4 w-4 text-primary" />
-                <span className="font-medium">Résultat: Vision claire du marché avant engagement.</span>
+                <span className="font-medium">Résultat : Vision claire du marché avant engagement.</span>
               </div>
             </div>
           </div>
@@ -34,15 +34,15 @@ export default function ProcessSection() {
             </div>
             <div className="space-y-2">
               <div className="inline-block rounded-full bg-primary/10 px-3 py-1 text-xs font-medium text-primary mb-2">
-                Délai: 30-45 min
+                Étape 2
               </div>
               <h3 className="font-bold text-lg">CADRAGE STRATÉGIQUE</h3>
               <p className="text-muted-foreground">
-                Échange 30-45 min: contexte entreprise, technologies (KNX, BACnet, Tridium), évolutions poste, fourchette salariale, angle d'approche candidat.
+                Échange approfondi : contexte entreprise, technologies (KNX, BACnet, Tridium), évolutions poste, fourchette salariale, angle d&apos;approche candidat.
               </p>
               <div className="flex items-center gap-2 text-sm">
                 <CheckCircle className="h-4 w-4 text-primary" />
-                <span className="font-medium">Résultat: Identification de LA bonne personne.</span>
+                <span className="font-medium">Résultat : Identification de LA bonne personne.</span>
               </div>
             </div>
           </div>
@@ -53,15 +53,15 @@ export default function ProcessSection() {
             </div>
             <div className="space-y-2">
               <div className="inline-block rounded-full bg-primary/10 px-3 py-1 text-xs font-medium text-primary mb-2">
-                Délai: 5-7 jours
+                Étape 3
               </div>
-              <h3 className="font-bold text-lg">SÉLECTION CHIRURGICALE</h3>
+              <h3 className="font-bold text-lg">APPROCHE DIRECTE CIBLÉE</h3>
               <p className="text-muted-foreground">
-                Sélection chirurgicale : plus de 2000 profils pré-qualifiés. Compétences techniques, motivations alignées, trajectoire cohérente, disponibilité réelle.
+                Nous activons notre réseau de plus de 2 000 profils GTB/GTC et approchons directement les candidats correspondant à votre besoin. Compétences techniques, motivations alignées, trajectoire cohérente.
               </p>
               <div className="flex items-center gap-2 text-sm">
                 <CheckCircle className="h-4 w-4 text-primary" />
-                <span className="font-medium">Résultat: 2 candidats ultra-ciblés, pas de CV générique.</span>
+                <span className="font-medium">Résultat : Des candidats ciblés, approchés spécifiquement pour votre poste.</span>
               </div>
             </div>
           </div>
@@ -72,15 +72,15 @@ export default function ProcessSection() {
             </div>
             <div className="space-y-2">
               <div className="inline-block rounded-full bg-primary/10 px-3 py-1 text-xs font-medium text-primary mb-2">
-                Délai: 7 jours maximum
+                Étape 4
               </div>
-              <h3 className="font-bold text-lg">PRÉSENTATION & ACCOMPAGNEMENT</h3>
+              <h3 className="font-bold text-lg">PRÉSENTATION & SUIVI</h3>
               <p className="text-muted-foreground">
-                Sous 7 jours: 2 profils avec synthèse. Organisation entretiens, accompagnement négociation, suivi 1 mois, garantie remplacement.
+                Présentation des profils avec synthèse détaillée. Vous menez vos entretiens, nous assurons le suivi d&apos;intégration et la garantie remplacement.
               </p>
               <div className="flex items-center gap-2 text-sm">
                 <CheckCircle className="h-4 w-4 text-primary" />
-                <span className="font-medium">Résultat: Recrutement réussi, intégration sécurisée.</span>
+                <span className="font-medium">Résultat : Recrutement réussi, intégration sécurisée.</span>
               </div>
             </div>
           </div>

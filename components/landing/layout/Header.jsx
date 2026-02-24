@@ -37,7 +37,7 @@ export default function Header() {
             <Link href="/candidats#formulaire">Rejoindre le réseau</Link>
           </Button>
           <Button size="sm" variant="outline" asChild>
-            <Link href="/entreprises#formulaire">Analyse gratuite</Link>
+            <Link href="/contact">Confiez-nous votre besoin</Link>
           </Button>
         </nav>
 
@@ -91,7 +91,7 @@ export default function Header() {
                     <Link href="/candidats#formulaire">Rejoindre le réseau</Link>
                   </Button>
                   <Button variant="outline" asChild onClick={() => setOpen(false)}>
-                    <Link href="/entreprises#formulaire">Analyse gratuite</Link>
+                    <Link href="/contact">Confiez-nous votre besoin</Link>
                   </Button>
                 </div>
               </nav>

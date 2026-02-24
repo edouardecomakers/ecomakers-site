@@ -5,23 +5,23 @@ import Link from 'next/link'
 const etapes = [
   {
     icon: ClipboardCheck,
-    title: "Analyse gratuite (24h)",
-    description: "Formulaire 2 min → Rapport personnalisé avec profils disponibles et stratégie recommandée."
+    title: "Échange initial",
+    description: "Prise de contact rapide pour comprendre votre besoin, votre contexte et vos critères."
   },
   {
     icon: MessageCircle,
-    title: "Cadrage stratégique (30-45 min)",
+    title: "Cadrage stratégique",
     description: "Échange approfondi sur votre contexte, technologies, culture d'entreprise et critères de sélection."
   },
   {
     icon: Target,
     title: "Approche directe ciblée",
-    description: "Activation de notre réseau de 2000+ profils. Identification et approche des candidats correspondant exactement à votre besoin."
+    description: "Identification et approche des candidats correspondant exactement à votre besoin. Zéro annonce."
   },
   {
     icon: Handshake,
-    title: "Présentation des candidats",
-    description: "Profils qualifiés présentés. Organisation entretiens, négociation, suivi jusqu'à l'intégration."
+    title: "Présentation & suivi",
+    description: "Profils qualifiés présentés avec synthèse détaillée. Suivi d'intégration et garantie remplacement."
   }
 ]
 
@@ -62,8 +62,8 @@ export default function TeaserEntreprisesSection() {
 
         <div className="flex justify-center mt-10">
           <Button asChild size="lg">
-            <Link href="/entreprises#formulaire">
-              Obtenir mon analyse gratuite
+            <Link href="/contact">
+              Confiez-nous votre besoin
               <ArrowRight className="ml-2 h-4 w-4" />
             </Link>
           </Button>

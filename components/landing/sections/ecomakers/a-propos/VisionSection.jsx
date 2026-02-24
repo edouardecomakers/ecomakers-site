@@ -13,7 +13,7 @@ export default function VisionSection() {
         <div className="mx-auto max-w-4xl py-12">
           <div className="space-y-8 text-center">
             <p className="text-xl md:text-2xl font-semibold text-primary">
-              Être le partenaire de référence des acteurs de la performance énergétique du bâtiment en Île-de-France.
+              Être le partenaire de référence des acteurs de la performance énergétique du bâtiment.
             </p>
             <p className="text-lg text-muted-foreground md:text-xl/relaxed">
               Faciliter la rencontre entre les meilleurs talents et les entreprises qui construisent le futur du bâtiment intelligent et sobre en énergie.
